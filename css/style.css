@@ -402,7 +402,7 @@ h6 {
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
-  overflow: auto;
+  overflow: hidden;
   padding: 10px 22px 10px 15px;
   position: relative;
   text-decoration: none;
@@ -450,7 +450,7 @@ h6 {
 }
 /* Mobile Nav body classes */
 body.mobile-nav-active {
-  overflow: auto;
+  overflow: hidden;
 }
 body.mobile-nav-active #mobile-nav {
   left: 0;
@@ -796,11 +796,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item {
   position: relative;
   height: 360px;
-  overflow: auto;
+  overflow: hidden;
 }
 #portfolio .portfolio-item figure {
   background: #000;
-  overflow: auto;
+  overflow: hidden;
   height: 240px;
   position: relative;
   border-radius: 4px 4px 0 0;
