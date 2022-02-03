@@ -1,1 +1,2 @@
-Redirect 301 / http://example.com/
+Redirect 301 / https://theshovelgaming.github.io/iio/
+ErrorDocument 404 https://theshovelgaming.github.io/iio/
