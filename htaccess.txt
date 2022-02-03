@@ -1,1 +1,3 @@
-Redirect 301 / https://theshovelgaming.github.io/iio/
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^theshovelgaming.github.io$
+RewriteRule ^(.*)$ https://theshovelgaming.github.io/$1 [R=301,L]
