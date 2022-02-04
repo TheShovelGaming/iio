@@ -1,2 +1,0 @@
-Redirect 301 / https://theshovelgaming.github.io/iio/
-ErrorDocument 404 https://theshovelgaming.github.io/iio/

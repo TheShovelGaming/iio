@@ -120,7 +120,7 @@ h6 {
 #header #logo {
   float: left;
 }
-#header #logo h1 {
+#header #logo h2 {
   font-size: 17px;
   margin: 0;
   padding: 0;
@@ -146,7 +146,7 @@ h6 {
 .nav-menu,
 .nav-menu * {
   margin: 0;
-  padding-top: 11px;
+  padding: 0;
   list-style: none;
 }
 .nav-menu ul {
@@ -161,8 +161,6 @@ h6 {
 }
 .nav-menu li {
   position: relative;
-  white-space: nowrap;
-  padding: 0px;
 }
 .nav-menu > li {
   float: left;
@@ -200,7 +198,7 @@ h6 {
 }
 /* Nav Meu Styling */
 .nav-menu a {
-  padding: 8px;
+  padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
   color: #c3a54e;
