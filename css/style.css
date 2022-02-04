@@ -101,42 +101,42 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-
-  padding: 10px 0;
-  height: 115px;
-  position:fixed;
-  left: 0;
+  height: 92px;
+  position: fixed;
+  left: -13px;
   top: 0;
   right: 0;
   transition: all 0.5s;
   z-index: 997;
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 5px 0;
-  height: 112px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0;
+  height: 92px;
   transition: all 0.5s;
 }
 #header #logo {
   float: left;
 }
 #header #logo h2 {
-  font-size: 17px;
-  margin: 0;
-  padding: 0;
+  font-size: 34px;
+  margin: 5px;
+  padding-left: 10px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  position:fixed;
 }
 #header #logo h2 a,
 #header #logo h2 a:hover {
-  color: #fff;
-  padding-left: 8px;
-  border-left: 4px solid #18d26e;
+  color: #4d6f50;
+  padding-left: 10px;
+  border-left: 4px solid #c3a54e;
+  position:fixed
 }
 #header #logo img {
-  padding-bottom: 5px;
+  padding-left: 0;
   margin: 0;
 }
 /*--------------------------------------------------------------
@@ -146,7 +146,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: rgb(252, 252, 252);
 }
 #intro .carousel-item {
   width: 100%;
@@ -157,7 +157,7 @@ h6 {
 }
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -192,7 +192,7 @@ h6 {
   text-align: center;
 }
 #intro h2 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -200,7 +200,7 @@ h6 {
 #intro p {
   width: 80%;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 #intro .carousel-fade {
   overflow: hidden;
@@ -229,6 +229,7 @@ h6 {
 }
 #intro .carousel-control-prev,
 #intro .carousel-control-next {
+  color: #000;
   width: 10%;
 }
 #intro .carousel-control-next-icon,
@@ -319,7 +320,7 @@ h6 {
   padding: 0 8px 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 13px;
@@ -372,7 +373,8 @@ h6 {
   cursor: pointer;
 }
 #mobile-nav-toggle i {
-  color: #fff;
+  padding-top:30px;
+  color:#4d6f50;
 }
 /* Mobile Nav Styling */
 #mobile-nav {
@@ -545,7 +547,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/back.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -558,6 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.92);
+  opacity: 70%;
   z-index: 9;
 }
 #about .container {
@@ -1293,7 +1296,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 0;
   }
   #intro p {
     width: 60%;
@@ -1303,7 +1306,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: 5%;
   }
   #nav-menu-container {
-    padding-right: 60px;
+    padding-right: 0;
   }
 }
 @media (max-width: 768px) {
