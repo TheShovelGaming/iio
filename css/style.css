@@ -103,7 +103,7 @@ h6 {
 #header {
   height: 92px;
   position: fixed;
-  left: -13px;
+  left: 0px;
   top: 0;
   right: 0;
   transition: all 0.5s;
@@ -112,31 +112,31 @@ h6 {
 #header.header-scrolled {
   background: rgba(255, 255, 255, 0.9);
   padding: 0;
-  height: 92px;
+  height: 140px;
   transition: all 0.5s;
 }
 #header #logo {
-  float: left;
+  float:left;
 }
 #header #logo h2 {
-  font-size: 34px;
-  margin: 5px;
-  padding-left: 10px;
+  font-size: 17px;
+  margin: 0px;
+  padding-left: 0px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   position:fixed;
 }
-#header #logo h2 a,
+#header #logo h2,
 #header #logo h2 a:hover {
   color: #4d6f50;
-  padding-left: 10px;
+  padding-left: 7px;
   border-left: 4px solid #c3a54e;
-  position:fixed
+  position:sticky
 }
 #header #logo img {
-  padding-left: 0;
+  padding-left: 0px;
   margin: 0;
 }
 /*--------------------------------------------------------------
@@ -373,7 +373,7 @@ h6 {
   cursor: pointer;
 }
 #mobile-nav-toggle i {
-  padding-top:30px;
+  padding-top:50px;
   color:#4d6f50;
 }
 /* Mobile Nav Styling */
@@ -560,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.92);
-  opacity: 70%;
+  opacity: 60%;
   z-index: 9;
 }
 #about .container {
@@ -725,7 +725,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/tolerance.png") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -765,6 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
+  background: url("../img/niche.jpg") center top repeat fixed ;
   padding: 60px 0;
 }
 #portfolio #portfolio-flters {
@@ -865,15 +866,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info {
   background: #fff;
   text-align: center;
-  padding: 30px;
-  height: 90px;
+  padding: 5px;
+  height: 50px;
   border-radius: 0 0 3px 3px;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1px;
   font-weight: 700;
-  margin-bottom: 18px;
+  margin-bottom: 5px;
   padding-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-info h4 a {
@@ -885,9 +886,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #portfolio .portfolio-item .portfolio-info p {
   padding: 0;
   margin: 0;
-  color: #b8b8b8;
+  color: #333;
+  font-weight: bold;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 11px;
   text-transform: uppercase;
 }
 /* Clients Section
