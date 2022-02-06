@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 a {
-  color: #18d26e;
+  color: #1d645a;
   transition: 0.5s;
 }
 a:hover,
@@ -663,22 +663,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
   margin-bottom: 0;
 }
-/* Call To Action Section
+/* Ibadhiyah Section
 --------------------------------*/
-#call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+#Ibadhiyah {
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
-#call-to-action h3 {
+#Ibadhiyah h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
 }
-#call-to-action p {
+#Ibadhiyah p {
   color: #fff;
 }
-#call-to-action .cta-btn {
+#Ibadhiyah .cta-btn {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -692,11 +692,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #fff;
   color: #fff;
 }
-#call-to-action .cta-btn:hover {
+#Ibadhiyah .cta-btn:hover {
   background: #18d26e;
   border: 2px solid #18d26e;
 }
-/* Call To Action Section
+/* Ibadhiyah Section
 --------------------------------*/
 #skills {
   padding: 60px 0;
@@ -762,19 +762,19 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   padding-top: 30px;
 }
-/* Portfolio Section
+/* virtual Section
 --------------------------------*/
-#portfolio {
+#virtual {
   background: url("../img/niche.jpg") center top repeat fixed ;
   padding: 60px 0;
 }
-#portfolio #portfolio-flters {
+#virtual #virtual-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
-#portfolio #portfolio-flters li {
+#virtual #virtual-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -788,27 +788,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#virtual #virtual-flters li:hover,
+#virtual #virtual-flters li.filter-active {
   background: #18d26e;
   color: #fff;
 }
-#portfolio #portfolio-flters li:last-child {
+#virtual #virtual-flters li:last-child {
   margin-right: 0;
 }
-#portfolio .portfolio-wrap {
+#virtual .virtual-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
-#portfolio .portfolio-wrap:hover {
+#virtual .virtual-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
-#portfolio .portfolio-item {
+#virtual .virtual-item {
   position: relative;
   height: 360px;
   overflow: hidden;
 }
-#portfolio .portfolio-item figure {
+#virtual .virtual-item figure {
   background: #000;
   overflow: hidden;
   height: 240px;
@@ -816,12 +816,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 4px 4px 0 0;
   margin: 0;
 }
-#portfolio .portfolio-item figure:hover img {
+#virtual .virtual-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
-#portfolio .portfolio-item figure .link-preview,
-#portfolio .portfolio-item figure .link-details {
+#virtual .virtual-item figure .link-preview,
+#virtual .virtual-item figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -833,57 +833,57 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   transition: 0.2s linear;
 }
-#portfolio .portfolio-item figure .link-preview i,
-#portfolio .portfolio-item figure .link-details i {
+#virtual .virtual-item figure .link-preview i,
+#virtual .virtual-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
-#portfolio .portfolio-item figure .link-preview:hover,
-#portfolio .portfolio-item figure .link-details:hover {
+#virtual .virtual-item figure .link-preview:hover,
+#virtual .virtual-item figure .link-details:hover {
   background: #18d26e;
 }
-#portfolio .portfolio-item figure .link-preview:hover i,
-#portfolio .portfolio-item figure .link-details:hover i {
+#virtual .virtual-item figure .link-preview:hover i,
+#virtual .virtual-item figure .link-details:hover i {
   color: #fff;
 }
-#portfolio .portfolio-item figure .link-preview {
+#virtual .virtual-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
-#portfolio .portfolio-item figure .link-details {
+#virtual .virtual-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
-#portfolio .portfolio-item figure:hover .link-preview {
+#virtual .virtual-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
-#portfolio .portfolio-item figure:hover .link-details {
+#virtual .virtual-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
-#portfolio .portfolio-item .portfolio-info {
+#virtual .virtual-item .virtual-info {
   background: #fff;
   text-align: center;
   padding: 5px;
   height: 50px;
   border-radius: 0 0 3px 3px;
 }
-#portfolio .portfolio-item .portfolio-info h4 {
+#virtual .virtual-item .virtual-info h4 {
   font-size: 12px;
   line-height: 1px;
   font-weight: 700;
   margin-bottom: 5px;
   padding-bottom: 0;
 }
-#portfolio .portfolio-item .portfolio-info h4 a {
+#virtual .virtual-item .virtual-info h4 a {
   color: #333;
 }
-#portfolio .portfolio-item .portfolio-info h4 a:hover {
+#virtual .virtual-item .virtual-info h4 a:hover {
   color: #18d26e;
 }
-#portfolio .portfolio-item .portfolio-info p {
+#virtual .virtual-item .virtual-info p {
   padding: 0;
   margin: 0;
   color: #333;
