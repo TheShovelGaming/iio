@@ -504,9 +504,9 @@ BUTTONS
 /* Title Section
 --------------------------------*/
 #title {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah-bg.jpg) fixed center center;
   background-size: cover;
-  padding: 50px;
+  padding: 10px;
 }
 #title h1 {
   padding-top: 280px;
