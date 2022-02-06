@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 a {
-  color: #18d26e;
+  color: #1d645a;
   transition: 0.5s;
 }
 a:hover,
@@ -101,21 +101,21 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: white;
-  padding: 10px 0;
-  height: 115px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 0;
+  height: 0;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
+  transition: ease-in-out 1.5s;
   z-index: 997;
 }
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 5px 0;
-  height: 112px;
-  transition: all 0.5s;
+  background: #fcf8e3;
+  padding: 0;
+  height: 140px;
+  transition: ease-in-out 0.5s;
 }
 #header #logo {
   float: left;
@@ -123,20 +123,20 @@ h6 {
 #header #logo h2 {
   font-size: 17px;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 #header #logo h2 a,
 #header #logo h2 a:hover {
-  color: #1d645a;
-  padding-left: 8px;
+  color: #4d6f50;
+  padding-left: 7px;
   border-left: 4px solid #18d26e;
 }
 #header #logo img {
-  padding-bottom: 5px;
+  padding-left: 0;
   margin: 0;
 }
 /*--------------------------------------------------------------
@@ -146,7 +146,7 @@ h6 {
 .nav-menu,
 .nav-menu * {
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
   list-style: none;
 }
 .nav-menu ul {
@@ -204,7 +204,7 @@ h6 {
   color: #c3a54e;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   outline: none;
 }
@@ -254,6 +254,7 @@ h6 {
   cursor: pointer;
 }
 #mobile-nav-toggle i {
+  padding-top:50px;
   color: #c3a54e;
 }
 /* Mobile Nav Styling */
@@ -504,7 +505,7 @@ BUTTONS
 /* Title Section
 --------------------------------*/
 #title {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah.jpg) fixed center center;
   background-size: cover;
   padding: 10px;
 }
@@ -675,7 +676,7 @@ BUTTONS
 }
 @media (min-width: 1024px) {
   #header #logo {
-    padding-left: 60px;
+    padding-left: 0;
   }
   #intro p {
     width: 60%;
@@ -685,7 +686,7 @@ BUTTONS
     width: 5%;
   }
   #nav-menu-container {
-    padding-right: 60px;
+    padding-right: 0;
   }
 }
 @media (max-width: 768px) {

@@ -101,50 +101,48 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding-top: 30px;
-  height: 92px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 0;
+  height: 0;
   position: fixed;
-  left: 0px;
+  left: 0;
   top: 0;
   right: 0;
-  transition: all 0.5s;
+  transition: ease-in-out 1.5s;
   z-index: 997;
 }
 #header.header-scrolled {
   background: rgba(255, 255, 255, 0.9);
   padding: 0;
   height: 140px;
-  transition: all 0.5s;
+  transition: ease-in-out 0.5s;
 }
 #header #logo {
   float:left;
 }
 #header #logo h2 {
   font-size: 17px;
-  margin: 0px;
-  padding-left: 0px;
+  margin: 0;
+  padding-left: 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  position:fixed;
 }
 #header #logo h2,
 #header #logo h2 a:hover {
   color: #4d6f50;
   padding-left: 7px;
-  border-left: 4px solid #c3a54e;
-  position:sticky
+  border-left: 4px solid #c3a54e;  
 }
 #header #logo img {
-  padding-left: 0px;
+  padding-left: 0;
   margin: 0;
 }
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
 #intro {
-  padding-top: 30px;
   display: table;
   width: 100%;
   height: 100vh;
@@ -152,9 +150,9 @@ h6 {
 }
 #intro .carousel-item {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position:top;
   background-repeat: no-repeat;
 }
 #intro .carousel-item::before {
@@ -183,7 +181,7 @@ h6 {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: 100px;
   left: 0;
   right: 0;
 }
@@ -240,7 +238,12 @@ h6 {
   font-size: 32px;
   line-height: 1;
 }
+#intro .carousel-indicators li:hover{
+  background-color: #18d26e;
+}
 #intro .carousel-indicators li {
+  background-color: #000000;
+  padding: 1px;
   cursor: pointer;
 }
 #intro .btn-get-started {
@@ -267,7 +270,7 @@ h6 {
 .nav-menu,
 .nav-menu * {
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
   list-style: none;
 }
 .nav-menu ul {
@@ -515,6 +518,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
+  padding-top: 30px;
   background: #000;
 }
 #featured-services .box {
@@ -549,9 +553,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
+  padding-top:100px;
   background: url("../img/back.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
   position: relative;
 }
 #about::before {
@@ -631,9 +635,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
+  padding-top:100px;
   background: #fff;
   background-size: cover;
-  padding: 60px 0 40px 0;
 }
 #services .box {
   margin-bottom: 30px;
@@ -668,9 +672,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Ibadhiyah Section
 --------------------------------*/
 #Ibadhiyah {
+  padding-top: 100px;
+  padding-bottom: 30px;
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah.jpg) fixed center center;
   background-size: cover;
-  padding: 60px 0;
 }
 #Ibadhiyah h3 {
   color: #fff;
@@ -988,8 +993,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
+  padding-top:100px;
   background: #fff;
-  padding: 60px 0;
 }
 #team .member {
   text-align: center;
@@ -1060,7 +1065,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  padding: 60px 0;
+  padding-top: 120px;
 }
 #contact .contact-info {
   margin-bottom: 20px;
