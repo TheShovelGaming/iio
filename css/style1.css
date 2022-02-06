@@ -131,9 +131,9 @@ h6 {
 }
 #header #logo h2 a,
 #header #logo h2 a:hover {
-  color: #4d6f50;
+  color: #18d26e;
   padding-left: 7px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #c3a54e;
 }
 #header #logo img {
   padding-left: 0;
@@ -174,7 +174,7 @@ h6 {
   left: 100%;
 }
 .nav-menu ul li {
-  min-width: 180px;
+  min-width: 220px;
 }
 /* Nav Menu Arrows */
 .sf-arrows .sf-with-ul {
@@ -217,7 +217,7 @@ h6 {
 }
 .nav-menu ul {
   margin: 4px 0 0 0;
-  padding: 10px;
+  padding: 5px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   background: #fff;
 }
@@ -225,7 +225,7 @@ h6 {
   transition: 0.3s;
 }
 .nav-menu ul li a {
-  padding: 10px;
+  padding: 3px;
   color: #333;
   transition: 0.3s;
   display: block;
@@ -254,7 +254,7 @@ h6 {
   cursor: pointer;
 }
 #mobile-nav-toggle i {
-  padding-top:50px;
+  padding-top:55px;
   color: #c3a54e;
 }
 /* Mobile Nav Styling */
@@ -352,6 +352,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   padding-bottom: 15px;
 }
+.section-header h3 {
+  font-size: 32px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 15px;
+}
 .section-header h3::before {
   content: '';
   position: absolute;
@@ -381,40 +390,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-bg {
   background: #f7f7f7;
-}
-/* Featured Services Section
---------------------------------*/
-#featured-services {
-  background: white;
-}
-#featured-services .box {
-  padding: 0px;
-}
-#featured-services .box-bg {
-  background-image: white;
-}
-#featured-services i {
-  color: #18d26e;
-  font-size: 0px;
-  display: inline-block;
-  line-height: 0;
-}
-#featured-services h4 {
-  font-weight: 0;
-  margin: 0;
-  font-size: 0px;
-}
-#featured-services h4 a {
-  color: #fff;
-}
-#featured-services h4 a:hover {
-  color: #18d26e;
-}
-#featured-services p {
-  font-size: 0px;
-  line-height: 0px;
-  color: #fff;
-  margin-bottom: 0;
 }
 /* Body Section
 --------------------------------*/
