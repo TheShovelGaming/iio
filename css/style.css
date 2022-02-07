@@ -559,7 +559,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* About Us Section
 --------------------------------*/
 #about {
-  padding-top:140px;
+  padding: 60px 0 40px 0;
   background: url("../img/back.jpg") center top no-repeat fixed;
   background-size: cover;
   position: relative;
@@ -644,7 +644,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  padding-top:140px;
+  padding: 60px 0 40px 0;
   background: #fff;
   background-size: cover;
 }
@@ -681,10 +681,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Ibadhiyah Section
 --------------------------------*/
 #Ibadhiyah {
-  padding-top: 140px;
-  padding-bottom: 30px;
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/Ibadhiyah.jpg) fixed center center;
   background-size: cover;
+  padding: 60px 0;
 }
 #Ibadhiyah h3 {
   color: #fff;
@@ -781,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* virtual Section
 --------------------------------*/
 #virtual {
-  padding-top: 140px;
+  padding: 60px 0;
   background: url("../img/niche.jpg") center top repeat fixed ;
 }
 #virtual #virtual-flters {
@@ -1002,7 +1001,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  padding-top:140px;
+  padding: 60px 0;
   background: #fff;
 }
 #team .member {
@@ -1074,7 +1073,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Contact Section
 --------------------------------*/
 #contact {
-  padding-top: 140px;
+  padding: 60px 0;
 }
 #contact .contact-info {
   margin-bottom: 20px;
