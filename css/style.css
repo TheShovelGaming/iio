@@ -564,6 +564,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   position: relative;
 }
+#about h1 {
+  color: #1d645a;
+}
 #about::before {
   content: '';
   position: absolute;
