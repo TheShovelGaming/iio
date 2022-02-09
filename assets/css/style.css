@@ -1915,7 +1915,7 @@ BUTTONS
   padding-left:0;
   margin:20px 0;
   text-align:center;
-  list-style:none
+  list-style:none;
 } 
 .pager li {
   display:inline
@@ -1935,11 +1935,13 @@ BUTTONS
   float:right;
   position: absolute;
   right: 60px;
+  box-shadow: 4px 3px 3px 3px #888888;
 }
 .pager .previous>a, .pager .previous>span {
   float:left;
   position: absolute;
   left: 60px;
+  box-shadow: -4px 3px 3px 3px #888888;
 }
 .pager .disabled>a, .pager .disabled>a:focus, .pager .disabled>a:hover, .pager .disabled>span {
   color:#777;
