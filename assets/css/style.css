@@ -117,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(250, 249, 242);
   padding:0;
   height: 140px;
+  box-shadow: 1px 1px 5px 5px #888888;
 }
 #header h1 {
   
@@ -128,16 +129,18 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   padding-left: 5px;
   border-left: 3px solid #c3a54e;
-  
+  text-shadow: 0px 1px 2px #888888;
 }
 #header .logo a {
   float: left;
   color: #4d6f50;
+  
 }
 #header .logo img {
   padding-top: 0px;
   padding-left: 20px;
   margin-right: 0px;
+  
 }
 @media (max-width: 992px) {
   #header .logo {
@@ -161,6 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   list-style: none;
   align-items: right;
+  text-shadow: 0px 1px 0px #888888;
 }
 .navbar li {
   position: relative;
@@ -376,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
+  text-shadow: 1px 1px 2px #5756488e;
 }
 @media (max-width: 768px) {
   #hero h2 {
@@ -610,7 +615,7 @@ section {
 }
 #about .container {
   position: relative;
-  z-index: 10;
+  z-index: 10; 
 }
 #about .container p, h3 {
   color: #1d645a;
@@ -626,9 +631,11 @@ section {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
+  box-shadow: 2px 2px 4px 4px #888888;
 }
 #about .about-col .img {
   position: relative;
+  box-shadow: 2px 2px 4px 4px #888888;
 }
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
@@ -729,6 +736,7 @@ section {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
+  box-shadow: 10px 10px 8px 10px #888888;
 }
 #call-to-action h3 {
   color: #fff;
@@ -1021,6 +1029,7 @@ section {
 --------------------------------*/
 #clients {
   padding: 60px 0;
+  box-shadow:  5px 5px 8px 10px #888888;
 }
 #clients h3 {
   color: #1d645a;
@@ -1051,6 +1060,7 @@ section {
 --------------------------------*/
 #testimonials {
   padding: 60px 0;
+  box-shadow:  5px 5px 8px 10px #888888;
 }
 #testimonials h3 {
   color: #1d645a;
@@ -1135,8 +1145,8 @@ section {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
   position: relative;
+  box-shadow: 2px 2px 4px 4px #888888;
 }
 #team .member .member-info {
   opacity: 0;
@@ -1763,6 +1773,9 @@ section {
   color: #eee;
   font-size: 14px;
 }
+#footer h3 {
+  color: #eee;
+}
 #footer .footer-top {
   background: #111;
   padding: 60px 0 30px 0;
@@ -1940,7 +1953,7 @@ BUTTONS
 }
 #title h1 {
   padding-top: 280px;
-  color: #fff;
+  color: #1d645a;
   font-size: 32px;
   font-weight: 700;
 }
