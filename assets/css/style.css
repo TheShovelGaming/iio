@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   list-style: none;
   align-items: right;
-  text-shadow: 0px 1px 0px #888888;
+  
 }
 .navbar li {
   position: relative;
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #4d6f50;
+  color: #554124e9;
   text-transform: uppercase;
   transition: 0.3s;
 }
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 0px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #18d26e;
+  color: #0b4124;
 }
 .navbar .dropdown ul {
   display: block;
@@ -617,7 +617,10 @@ section {
   position: relative;
   z-index: 10; 
 }
-#about .container p, h3 {
+#about .container h3 {
+  color: #bd6d00;
+}
+#about .container p {
   color: #1d645a;
 }
 #about .container p a {
@@ -694,12 +697,16 @@ section {
 #services {
   background: #fff;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding-top:140px;
+  padding-bottom:140px;
 }
 #services .box {
   margin-bottom: 30px;
 }
 #services h3 {
+  color: #1d645a;
+}
+#services p {
   color: #1d645a;
 }
 #services .icon {
@@ -735,7 +742,8 @@ section {
 #call-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
-  padding: 60px 0;
+  padding-top: 140px;
+  padding-bottom: 140px;
   box-shadow: 10px 10px 8px 10px #888888;
 }
 #call-to-action h3 {
@@ -1949,13 +1957,13 @@ BUTTONS
   background-color:#fff;
 }
 #title {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg2.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 46.3, 11.8, 0.1), rgba(0, 0, 0, 0.2)), url(../img/call-to-action-bg2.jpg) fixed center center;
   background-size: cover;
   padding: 10px;
 }
 #title h1 {
   padding-top: 280px;
-  color: #1d645a;
+  color: white;
   font-size: 32px;
   font-weight: 700;
 }
