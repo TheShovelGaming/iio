@@ -336,14 +336,14 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   background: #000;
   overflow: hidden;
   position: relative;
 }
 @media (max-height: 500px) {
   #hero {
-    height: 150vh;
+    height: 100vh;
   }
 }
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 180px;
+  top: 20%;
   left: 30px;
   right: 30px;
 }
