@@ -854,7 +854,7 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 60px 0;
+  padding-top: 140px;
 }
 #portfolio h3 {
   color: #1d645a;
@@ -1141,7 +1141,7 @@ section {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 60px 0;
+  padding-top: 140px;
 }
 #team h3 {
   color: #1d645a;
@@ -1211,7 +1211,7 @@ section {
 /* Contact Section
 --------------------------------*/
 #contact {
-  padding: 60px 0;
+  padding-top: 140px;
 }
 #contact h3 {
   color: #1d645a;
