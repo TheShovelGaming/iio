@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   background: rgb(250, 249, 242);
   padding:0;
-  height: 145px;
+  height: 130px;
   box-shadow: 1px 1px 5px 5px #888888;
 }
 #header h1 {
@@ -368,7 +368,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 180px;
+  top: 50px;
   left: 30px;
   right: 30px;
 }
