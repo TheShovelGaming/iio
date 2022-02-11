@@ -136,7 +136,7 @@ hr.new {
 #header.header-scrolled {
   background: rgb(250, 242, 244);
   padding:0;
-  height: 140px;
+  height: 100px;
   box-shadow: 1px 1px 5px 5px #888888;
 }
 #header h1 {
