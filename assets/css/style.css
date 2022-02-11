@@ -134,9 +134,9 @@ hr.new {
   background: transparent;
 }
 #header.header-scrolled {
-  background: rgb(250, 249, 242);
+  background: rgb(250, 242, 244);
   padding:0;
-  height: 110px;
+  height: 140px;
   box-shadow: 1px 1px 5px 5px #888888;
 }
 #header h1 {
