@@ -26,6 +26,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+hr {
+  color: green;
+  border-top: 5px solid green; 
+  width: 100px;
+  align-content: center;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+hr.new {
+  color: green;
+  border-top: 5px solid green; 
+  width: 200px;
+  text-align: center;
+  align-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1628,16 +1648,6 @@ section {
   color: white;
   font-size: 14px;
 }
-hr {
-  border-top: 5px solid #18d26e; 
-  width: 50px;
-  align-items: center;
-}
-hr .new {
-  border-top: 5px solid #18d26e; 
-  width: 100px;
-  align-items: center;
-}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1651,7 +1661,7 @@ hr .new {
   color: #eee;
 }
 #footer .footer-top {
-  background:radial-gradient(rgba(0, 142, 99, 0.966), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(40deg, #1f4329 20%, #242323 50%, #1f4329 100%);
   padding: 60px 0 30px 0;
 }
 #footer .footer-top .footer-info {
@@ -1806,18 +1816,15 @@ BUTTONS
   background-size: cover;
   padding: 10px;
 }
+#title img {
+  padding-top: 120px;
+}
 #title h1 {
-  padding-top: 280px;
+  padding-top: 0px;
   color: white;
   font-size: 32px;
   font-weight: 700;
 }
 #title p {
   color: #fff;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
 }
