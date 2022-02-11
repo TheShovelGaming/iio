@@ -698,7 +698,7 @@ section {
 #services {
   background: #fff;
   background-size: cover;
-  padding-top:140px;
+  padding-top:100px;
   padding-bottom:140px;
 }
 #services .box {
@@ -777,7 +777,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #skills {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 #skills h3 {
   color: #1d645a;
@@ -855,7 +855,7 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding-top: 140px;
+  padding-top: 100px;
 }
 #portfolio h3 {
   color: #1f4329;
@@ -1037,7 +1037,7 @@ section {
 /* Clients Section
 --------------------------------*/
 #clients {
-  padding: 60px 0;
+  padding: 100px 0;
   box-shadow:  5px 5px 8px 10px #888888;
 }
 #clients h3 {
@@ -1068,7 +1068,7 @@ section {
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
-  padding: 60px 0;
+  padding: 100px 0;
   box-shadow:  5px 5px 8px 10px #888888;
 }
 #testimonials h3 {
