@@ -1652,7 +1652,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #000;
+  background: #1f4329;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
@@ -1662,10 +1662,10 @@ section {
 }
 #footer .footer-top {
   background: linear-gradient(40deg, #1f4329 20%, #242323 50%, #1f4329 100%);
-  padding: 60px 0 30px 0;
+  padding: 20px 0 30px 0;
 }
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #footer .footer-top .footer-info h3 {
   font-size: 18px;
@@ -1675,7 +1675,7 @@ section {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #dd9d01;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -1683,6 +1683,9 @@ section {
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
   color: #eee;
+}
+#footer .footer-contact p a:hover {
+  color: #bf7206;
 }
 #footer .footer-top .social-links a {
   display: inline-block;
@@ -1703,7 +1706,7 @@ section {
   font-size: 16px;
 }
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
+  background: #bf7206;
   color: #fff;
 }
 #footer .footer-top h4 {
@@ -1719,14 +1722,14 @@ section {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 2px;
+  height: 3px;
 }
 #footer .footer-top h4::before {
   right: 0;
-  background: #555;
+  background: rgba(190, 123, 0, 0.411);
 }
 #footer .footer-top h4::after {
-  background: #18d26e;
+  background: #dd9d01;
   width: 60px;
 }
 #footer .footer-top .footer-links {
@@ -1743,31 +1746,35 @@ section {
 }
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #333;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 #footer .footer-top .footer-links ul li:first-child {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #eee;
-}
-#footer .footer-top .footer-links ul a:hover {
   color: #18d26e;
 }
+#footer .footer-top .footer-links ul a:hover {
+  color: #bf7206;
+}
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
 }
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 #footer .credits {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+  padding-top: 5px;
+}
+#footer .credits a:hover{
+  color: #bf7206;
 }
 /*********
 
