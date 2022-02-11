@@ -133,14 +133,11 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo a {
   float: left;
   color: #4d6f50;
-
-  
 }
 #header .logo img {
   padding-top: 10px;
   padding-left: 0;
   margin-right: 0px;
-  
 }
 @media (max-width: 200px) {
   #header .logo {
@@ -154,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding-top: 40px;
+  padding-top: 25px;
   padding-right: 20px;
   float: right;
 }
