@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled {
   background: rgb(250, 249, 242);
   padding:0;
-  height: 140px;
+  height: 110px;
   box-shadow: 1px 1px 5px 5px #888888;
 }
 #header h1 {
@@ -557,13 +557,13 @@ section {
 /* Featured Services Section
 --------------------------------*/
 #featured-services {
-  background: #000;
+  background: #1f4329;
 }
 #featured-services .box {
   padding: 40px 20px;
 }
 #featured-services .box-bg {
-  background-image: linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);
+  background-image: linear-gradient(0deg, #1f4329 0%, #242323 50%, #1f4329 100%);
 }
 #featured-services i {
   color: #18d26e;
@@ -704,7 +704,7 @@ section {
   margin-bottom: 30px;
 }
 #services h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #services p {
   color: #1d645a;
@@ -813,10 +813,10 @@ section {
   position: relative;
 }
 #facts h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #facts p {
-  color: #1d645a;
+  color: #1f4329;
 }
 #facts::before {
   content: "";
@@ -837,13 +837,13 @@ section {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #18d26e;
+  color: #1f4329;
 }
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #72552e;
 }
 #facts .facts-img {
@@ -857,7 +857,7 @@ section {
   padding-top: 140px;
 }
 #portfolio h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #portfolio #portfolio-flters {
   padding: 0;
@@ -1040,7 +1040,7 @@ section {
   box-shadow:  5px 5px 8px 10px #888888;
 }
 #clients h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #clients img {
   opacity: 0.5;
@@ -1071,7 +1071,7 @@ section {
   box-shadow:  5px 5px 8px 10px #888888;
 }
 #testimonials h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #testimonials .section-header {
   margin-bottom: 40px;
@@ -1214,7 +1214,7 @@ section {
   padding-top: 140px;
 }
 #contact h3 {
-  color: #1d645a;
+  color: #1f4329;
 }
 #contact p {
   color: #1d645a;
@@ -1660,7 +1660,7 @@ hr .new {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-info h3 {
-  font-size: 34px;
+  font-size: 18px;
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
@@ -1751,27 +1751,6 @@ hr .new {
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
-}
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-newsletter input[type=email] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-#footer .footer-top .footer-newsletter input[type=submit] {
-  background: #18d26e;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-#footer .footer-top .footer-newsletter input[type=submit]:hover {
-  background: #13a456;
 }
 #footer .copyright {
   text-align: center;
