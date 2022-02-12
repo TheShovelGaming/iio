@@ -1365,6 +1365,13 @@ section {
 .blog {
   padding: 40px 0 20px 0;
 }
+
+.blog a {
+  color: #00705a;
+}
+.blog a:hover {
+  color: #bf7206;
+}
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
@@ -1535,45 +1542,6 @@ section {
 .blog .sidebar .sidebar-item {
   margin-bottom: 30px;
 }
-.blog .sidebar .search-form form {
-  background: #fff;
-  border: 1px solid #ddd;
-  padding: 3px 10px;
-  position: relative;
-  border-radius: 50px;
-}
-.blog .sidebar .search-form form input {
-  border: 0;
-  padding: 4px;
-  border-radius: 4px;
-  width: calc(100% - 70px);
-  box-shadow: none;
-}
-.blog .sidebar .search-form form input:focus {
-  box-shadow: none;
-}
-.blog .sidebar .search-form form button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 30px;
-  margin: -1px;
-  background: #18d26e;
-  color: #fff;
-  transition: 0.3s;
-  line-height: 0;
-  border-radius: 50px;
-}
-.blog .sidebar .search-form form button i {
-  line-height: 0;
-}
-.blog .sidebar .search-form form button:hover {
-  background: #13a456;
-}
 .blog .sidebar .categories ul {
   list-style: none;
   padding: 0;
@@ -1606,11 +1574,11 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: #333333;
+  color: #1f4329;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #18d26e;
+  color: #bf7206;
 }
 .blog .sidebar .recent-posts time {
   display: block;
