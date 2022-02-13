@@ -1052,7 +1052,43 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
-/* Clients Section
+
+/* Panels Section
+--------------------------------*/
+#panels {
+  padding: 100px 0;
+  box-shadow:  5px 5px 8px 10px #888888;
+}
+#panels img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+#panels img:hover {
+  opacity: 1;
+}
+#panels .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+#panels .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+#panels .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
+}
+#panels h3 {
+  color: #1f4329;
+}
+#panels h5 {
+  color: #1f4329;
+  font-weight: 700;
+  text-align: center;
+}
+/* panels Section
 --------------------------------*/
 #clients {
   padding: 100px 0;
