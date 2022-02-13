@@ -256,10 +256,10 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 600,
+    speed: 400,
     loop: true,
     autoplay: {
-      delay: 1500,
+      delay: 5000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
