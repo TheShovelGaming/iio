@@ -853,7 +853,7 @@ section {
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 38px;
   display: block;
   color: #1f4329;
 }
@@ -1057,14 +1057,9 @@ section {
   padding: 100px 0;
   box-shadow:  5px 5px 8px 10px #888888;
 }
-#clients h3 {
-  color: #1f4329;
-}
 #clients img {
   opacity: 0.5;
   transition: 0.3s;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 #clients img:hover {
   opacity: 1;
@@ -1082,6 +1077,14 @@ section {
 }
 #clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
+}
+#clients h3 {
+  color: #1f4329;
+}
+#clients h5 {
+  color: #1f4329;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* Testimonials Section
