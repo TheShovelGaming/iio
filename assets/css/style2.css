@@ -2,9 +2,12 @@
 # General
 --------------------------------------------------------------*/
 body {
+  direction: rtl;
+  unicode-bidi: bidi-override;
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }
 a {
   color: #18d26e;
@@ -21,7 +24,8 @@ p {
   margin: 0 0 30px 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -144,7 +148,8 @@ hr.new {
   padding-right: 0;
   font-size: 10px;
   margin-left: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 700;
   letter-spacing: 0px;
   padding-left: 5px;
@@ -158,6 +163,11 @@ hr.new {
   padding-top: 5px;
   padding-left: 0;
   margin-right: 0px;
+}
+#header img {
+  padding-top: px;
+  padding-left: 0;
+  margin-right: 10px;
 }
 @media (max-width: 400px) {
   #header .logo {
@@ -191,7 +201,8 @@ hr.new {
   align-items: right;
   justify-content: space-between;
   padding: 0px 0 0px 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-size: 14px;
   font-weight: 600;
   color: #554124e9;
@@ -462,7 +473,8 @@ hr.new {
   margin-bottom: 50px;
 }
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -773,7 +785,8 @@ section {
   color: #fff;
 }
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -805,7 +818,8 @@ section {
   border-radius: 0;
 }
 #skills .progress .skill {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   line-height: 35px;
   padding: 0;
   margin: 0 0 0 20px;
@@ -851,7 +865,8 @@ section {
   z-index: 10;
 }
 #facts .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: bold;
   font-size: 36px;
   display: block;
@@ -860,7 +875,8 @@ section {
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-size: 16px;
   color: #72552e;
 }
@@ -1678,7 +1694,8 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 700;
   letter-spacing: 3px;
   border-left: 4px solid #dd9d01;
@@ -1687,7 +1704,8 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   color: #eee;
 }
 #footer .footer-contact p a:hover {
