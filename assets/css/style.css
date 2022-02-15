@@ -157,9 +157,11 @@ hr.new {
 #header .logo img {
   padding-top: 5px;
   padding-left: 0;
+  position:flex;
+  max-height: 10%;
 
 }
-@media (max-width: 400px) {
+@media (max-width: 900px) {
   #header .logo {
     font-size: 22px;
   }
@@ -283,7 +285,7 @@ hr.new {
   }
 }
 .navbar-mobile {
-  position: fixed;
+  position:absolute;
   overflow: hidden;
   top: 0;
   right: 0;
