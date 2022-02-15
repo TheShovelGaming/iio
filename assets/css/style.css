@@ -156,14 +156,9 @@ hr.new {
 }
 #header .logo img {
   padding-top: 5px;
-  padding-left: 0;
+  padding-left: 15px;
+}
 
-}
-@media (max-width: 900px) {
-  #header .logo {
-    font-size: 22px;
-  }
-}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -283,7 +278,7 @@ hr.new {
   }
 }
 .navbar-mobile {
-  position:absolute;
+  position: fixed;
   overflow: hidden;
   top: 0;
   right: 0;
