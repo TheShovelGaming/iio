@@ -157,7 +157,7 @@ hr.new {
 #header .logo img {
   padding-top: 5px;
   padding-left: 0;
-  margin-right: 0px;
+
 }
 @media (max-width: 400px) {
   #header .logo {
@@ -172,7 +172,7 @@ hr.new {
 */
 .navbar {
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 10px;
   float: right;
 }
 .navbar ul {
@@ -190,7 +190,7 @@ hr.new {
   display: flex;
   align-items: right;
   justify-content: space-between;
-  padding: 0px 0 0px 20px;
+  padding: 0px 0 0px 17px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
