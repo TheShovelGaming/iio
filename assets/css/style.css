@@ -157,8 +157,6 @@ hr.new {
 #header .logo img {
   padding-top: 5px;
   padding-left: 0;
-  position:flex;
-  max-height: 10%;
 
 }
 @media (max-width: 900px) {
