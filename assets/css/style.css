@@ -156,8 +156,10 @@ hr.new {
 }
 #header .logo img {
   padding-top: 5px;
+  height: 90px;
   padding-left: 15px;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
