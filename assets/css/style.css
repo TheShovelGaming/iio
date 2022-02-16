@@ -222,7 +222,7 @@ hr.new {
   white-space: wrap;
 }
 .navbar .dropdown ul li {
-  min-width: 220px;
+  min-width: 250px;
   
 }
 .navbar .dropdown ul a {
@@ -764,10 +764,10 @@ section {
   padding-bottom: 140px;
   box-shadow: 10px 10px 8px 10px #888888;
 }
-#call-to-action h3 {
+#call-to-action h2 {
   color: #fff;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 500;
 }
 #call-to-action p {
   color: #fff;
@@ -787,10 +787,10 @@ section {
   color: #fff;
 }
 #call-to-action .cta-btn:hover {
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #fffe;
+  border: 2px solid #fff;
+  color: #1d645a;
 }
-
 /* Call To Action Section
 --------------------------------*/
 #skills {
@@ -950,7 +950,8 @@ section {
 }
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   font-size: 18px;
-  color: #333;
+  color: #234b2e;
+  font-weight: 700;
   line-height: 0;
 }
 #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
@@ -960,7 +961,7 @@ section {
   color: #fff;
 }
 #portfolio .portfolio-item figure .link-preview {
-  left: calc(50% - 38px);
+  left: calc(20% - 38px);
   top: calc(50% - 18px);
 }
 #portfolio .portfolio-item figure .link-details {
@@ -969,7 +970,7 @@ section {
 }
 #portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  left: calc(50% - 44px);
+  left: calc(62% - 44px);
 }
 #portfolio .portfolio-item figure:hover .link-details {
   opacity: 1;
