@@ -1411,7 +1411,7 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  padding: 40px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .blog a {
@@ -1421,7 +1421,7 @@ section {
   color: #bf7206;
 }
 .blog .entry {
-  padding: 30px;
+  padding: 15px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
@@ -1432,7 +1432,7 @@ section {
 .blog .entry .entry-title {
   font-size: 28px;
   font-weight: bold;
-  padding: 0;
+  padding: 10px;
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
@@ -1496,7 +1496,8 @@ section {
   color: #fff;
 }
 .blog .entry .entry-content h3 {
-  font-size: 22px;
+  color:#123a35;
+  font-size: 42px;
   margin-top: 30px;
   font-weight: bold;
 }
@@ -1615,6 +1616,7 @@ section {
 .blog .sidebar .recent-posts img {
   width: 80px;
   float: left;
+  box-shadow: 1px 1px 4px 4px #888888;;
 }
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
