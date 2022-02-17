@@ -1575,8 +1575,8 @@ section {
   margin-bottom: 30px;
 }
 .blog .sidebar {
-  padding: 10px;
-  margin: 0px;
+  padding-top: 40px;
+  padding-left: 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .sidebar .sidebar-title {
