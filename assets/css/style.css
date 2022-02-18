@@ -44,8 +44,6 @@ hr.new {
   margin-left:auto;
   margin-right:auto;
 }
-
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -159,8 +157,6 @@ hr.new {
   height: 90px;
   padding-left: 15px;
 }
-
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -382,7 +378,7 @@ hr.new {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 50px;
+  top: 90px;
   left: 30px;
   right: 30px;
 }
@@ -453,28 +449,30 @@ hr.new {
   background-color: #18d26e;
 }
 #hero .carousel-indicators li {
-  background-color: #000000;
+  background-color: rgb(0, 68, 0);
   padding: 1px;
   cursor: pointer;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
-  display: inline-block;
+  display: inline-flex;
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 10px;
+
+  margin-top: 30px;
   color: #fff;
-  background: #a07840e9;
+  background: #a078403f;
+  opacity: 7;
 }
 #hero .btn-get-started:hover {
-  background: #fff;
-  color: #18d26e;
-  border: 3px solid #18d26e;
+  background: rgba(255, 255, 255, 0.445);
+  color: #a07840;
+  border: 3px solid #a078403f;
 }
 
 /*--------------------------------------------------------------
