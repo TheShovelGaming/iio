@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 a {
-  color: rgba(160, 114, 114, 0.486);
+  color: #554124;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -590,7 +590,7 @@ section {
   font-size: 18px;
 }
 #featured-services h4 a {
-  color: #fff;
+  color: #bd904c;
 }
 #featured-services h4 a:hover {
   color: #18d26e;
@@ -602,7 +602,7 @@ section {
   margin-bottom: 0;
 }
 #featured-services p a {
-  color: #c3a54e;
+  color: #bd904c;
 }
 #featured-services p a:hover {
   color: #18d26e;
@@ -637,7 +637,7 @@ section {
   color: #1d645a;
 }
 #about .container p a {
-  color: #72552e;
+  color: #554124;
 }
 #about .container p a:hover {
   color: #18d26e;
@@ -695,7 +695,7 @@ section {
   margin: 40px 0 12px 0;
 }
 #about .about-col h2 a {
-  color: #854e01;
+  color: #554124;
 }
 #about .about-col h2 a:hover {
   color: #123a35;
@@ -744,7 +744,7 @@ section {
   font-size: 18px;
 }
 #services .title a {
-  color: #111;
+  color: #554124;
 }
 #services .box:hover .title a {
   color: #18d26e;
@@ -992,7 +992,7 @@ section {
   padding-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-info h4 a {
-  color: #333;
+  color: #554124;
 }
 #portfolio .portfolio-item .portfolio-info h4 a:hover {
   color: #18d26e;
@@ -1299,7 +1299,7 @@ section {
   color: #999;
 }
 #contact .contact-info a {
-  color: #72552e;
+  color: #c99951;
 }
 #contact .contact-info a:hover {
   color: #18d26e;
@@ -1407,10 +1407,10 @@ section {
 }
 
 .blog a {
-  color: #00705a;
+  color: #554124;
 }
 .blog a:hover {
-  color: #bf7206;
+  color: green;
 }
 .blog .entry {
   padding: 15px;
@@ -1429,7 +1429,7 @@ section {
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #333333;
+  color: #554124;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1456,7 +1456,7 @@ section {
   line-height: 0;
 }
 .blog .entry .entry-meta a {
-  color: #666666;
+  color: #554124;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -1484,7 +1484,7 @@ section {
 .blog .entry .entry-content .read-more a {
   display: inline-block;
   background: #fff;
-  color: #333333;
+  color: #554124;
   padding: 6px 30px 8px 30px;
   transition: 0.3s;
   font-size: 14px;
@@ -1537,7 +1537,7 @@ section {
   display: inline;
 }
 .blog .entry .entry-footer a {
-  color: #666666;
+  color: #554124;
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
@@ -1599,7 +1599,7 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: #333333;
+  color: #554124;
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
@@ -1624,11 +1624,12 @@ section {
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: #1f4329;
+  color: #554124;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #bf7206;
+  
+  color: #1f4329;
 }
 .blog .sidebar .recent-posts time {
   display: block;
@@ -1648,7 +1649,7 @@ section {
   display: inline-block;
 }
 .blog .sidebar .tags ul a {
-  color: #333333;
+  color: #554124;
   font-size: 14px;
   padding: 6px 20px;
   margin: 0 6px 8px 0;
@@ -1703,6 +1704,9 @@ section {
   color: #eee;
 }
 #footer .footer-contact p a:hover {
+  color: #18d26e;
+}
+#footer .footer-contact p a {
   color: #bf7206;
 }
 #footer .footer-top .social-links a {
@@ -1770,10 +1774,10 @@ section {
   padding-top: 0;
 }
 #footer .footer-top .footer-links ul a {
-  color: #18d26e;
+  color: #cc9e58;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #bf7206;
+  color: green;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 20px;
