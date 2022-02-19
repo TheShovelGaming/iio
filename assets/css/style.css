@@ -726,6 +726,7 @@ section {
   color: #1d645a;
 }
 #services .icon {
+  display: flexbox;
   float: left;
 }
 #services .icon i {
@@ -735,7 +736,9 @@ section {
   transition: 0.5s;
 }
 #services .title {
+  display: block;
   margin-left: 60px;
+  margin-top: -40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
