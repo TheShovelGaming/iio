@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.5s;
   text-decoration: none;
 }
@@ -135,7 +135,7 @@ hr.new {
   background: rgb(250, 242, 244);
   padding:0;
   height: 125px;
-  box-shadow: 1px 1px 5px 5px #888888;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #header h1 {
   padding-top: 10px;
@@ -186,8 +186,8 @@ hr.new {
   padding: 0px 0 0px 17px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 600;
-  color: #554124e9;
+  font-weight: 550;
+  color: #bd6d00;
   text-transform: uppercase;
   transition: 0.3s;
 }
@@ -463,11 +463,10 @@ hr.new {
   padding: 8px 32px;
   border-radius: 50px;
   transition: 0.5s;
-
   margin-top: 30px;
   color: #fff;
-  background: #a078403f;
-  opacity: 7;
+  background: #a07840;
+  opacity: 0.5;
 }
 #hero .btn-get-started:hover {
   background: rgba(255, 255, 255, 0.445);
@@ -637,7 +636,7 @@ section {
   color: #1d645a;
 }
 #about .container p a {
-  color: #554124;
+  color: #bd6d00;
 }
 #about .container p a:hover {
   color: #18d26e;
@@ -695,10 +694,10 @@ section {
   margin: 40px 0 12px 0;
 }
 #about .about-col h2 a {
-  color: #554124;
+  color: #bd6d00;
 }
 #about .about-col h2 a:hover {
-  color: #123a35;
+  color: #18d26e;
 }
 #about .about-col p {
   font-size: 14px;
@@ -722,6 +721,12 @@ section {
 #services h3 {
   color: #1f4329;
 }
+#services h4 a{
+  color: #bd6d00;
+}
+#services h4 a:hover{
+  color: #18d26e;
+}
 #services p {
   color: #1d645a;
 }
@@ -744,7 +749,7 @@ section {
   font-size: 18px;
 }
 #services .title a {
-  color: #554124;
+  color: #bd6d00;
 }
 #services .box:hover .title a {
   color: #18d26e;
@@ -1403,29 +1408,29 @@ section {
 # Blog
 --------------------------------------------------------------*/
 .blog {
-  padding: 20px 0 20px 0;
+  padding: 20px;
 }
-
+.blog .container {
+  padding: 0;
+}
 .blog a {
-  color: #554124;
+  color: #bd6d00;
 }
 .blog a:hover {
-  color: green;
+  color: #18d26e;
 }
 .blog .entry {
-  padding: 15px;
-  margin-bottom: 60px;
+  padding: 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .entry .entry-img {
-  margin: -30px -30px 20px -30px;
   overflow: visible;
 }
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
   font-weight: bold;
-  padding: 10px;
+  padding: 0px;
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
@@ -1484,8 +1489,8 @@ section {
 .blog .entry .entry-content .read-more a {
   display: inline-block;
   background: #fff;
-  color: #554124;
-  padding: 6px 30px 8px 30px;
+  color: #bd6d00;
+  padding: 6px 10px 8px 10px;
   transition: 0.3s;
   font-size: 14px;
   border-radius: 50px;
@@ -1504,7 +1509,7 @@ section {
 .blog .entry .entry-content blockquote {
   overflow: hidden;
   background-color: #fafafa;
-  padding: 60px;
+  padding: 0px;
   position: relative;
   text-align: center;
   margin: 20px 0;
@@ -1537,7 +1542,7 @@ section {
   display: inline;
 }
 .blog .entry .entry-footer a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.3s;
 }
 .blog .entry .entry-footer a:hover {
@@ -1581,7 +1586,7 @@ section {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .sidebar .sidebar-title {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
@@ -1599,7 +1604,7 @@ section {
   padding-top: 10px;
 }
 .blog .sidebar .categories ul a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.3s;
 }
 .blog .sidebar .categories ul a:hover {
@@ -1619,17 +1624,16 @@ section {
   box-shadow: 1px 1px 4px 4px #888888;
 }
 .blog .sidebar .recent-posts h4 {
-  font-size: 15px;
+  font-size: 13px;
   margin-left: 95px;
   font-weight: bold;
 }
 .blog .sidebar .recent-posts h4 a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
-  
-  color: #1f4329;
+  color: #18d26e;
 }
 .blog .sidebar .recent-posts time {
   display: block;
