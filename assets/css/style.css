@@ -1416,9 +1416,7 @@ section {
 .blog {
   padding: 40px 0 20px 0;
 }
-.blog .container {
-  padding: 0;
-}
+bd6d00
 .blog a {
   color: #bd6d00;
 }
@@ -1433,12 +1431,12 @@ section {
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0px;
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1465,7 +1463,7 @@ section {
   line-height: 0;
 }
 .blog .entry .entry-meta a {
-  color: #554124;
+  color: #bd6d00;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
