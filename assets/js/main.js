@@ -79,7 +79,7 @@
   let selectHeader = select('#header')
   if (selectHeader) {
     const headerScrolled = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 30) {
         selectHeader.classList.add('header-scrolled')
       } else {
         selectHeader.classList.remove('header-scrolled')
@@ -254,7 +254,7 @@
     speed: 1500,
     loop: true,
     autoplay: {
-      delay: 1500,
+      delay: 4000,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
