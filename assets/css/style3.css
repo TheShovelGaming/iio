@@ -878,7 +878,7 @@ section {
   z-index: 10;
 }
 #facts .counters span {
-  font-family: "Al-Jazeera-Arabic-Bold", 'Open Sans', sans-serif;
+  font-family: "Al-Jazeera-Arabic-Bold", Sans, sans-serif;
   font-weight: bold;
   font-size: 36px;
   display: block;
