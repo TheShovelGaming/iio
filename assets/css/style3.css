@@ -8,11 +8,34 @@ body {
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }
 @media all and (min-width: 100px) and (max-width: 1381px) {
-  p, h1, h2, h3, h4, h5, h6 {
+  p {
     font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
-}}
-
+}
+  h1 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}
+  h2 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}
+  h3 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}
+  h4 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}
+  h5 {
+      font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+      src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}
+ h6 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}} 
 a {
   color: #bd6d00;
   transition: 0.5s;
