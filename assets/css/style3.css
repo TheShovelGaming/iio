@@ -7,18 +7,8 @@ body {
   font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }
-@media screen and (min-width: 981px) and (max-width: 1381px) {
-  p h1 h2 h3 h4 h5 h6 {
-    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
-    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
-}}
-@media screen and (min-width: 481px) and (max-width: 980px) {
-  p h1 h2 h3 h4 h5 h6 {
-    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
-    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
-}}
-@media all and (min-width: 100px) and (max-width: 480px) {
-  p h1 h2 h3 h4 h5 h6 {
+@media all and (min-width: 100px) and (max-width: 1381px) {
+  p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }}
