@@ -22,7 +22,7 @@ p {
   margin: 0 0 30px 0;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
   src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -144,8 +144,8 @@ hr.new {
   padding-right: 0;
   font-size: 10px;
   margin-left: 0px;
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
-    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
+  src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 700;
   letter-spacing: 0px;
   padding-left: 5px;
@@ -157,18 +157,8 @@ hr.new {
 }
 #header .logo img {
   padding-top: 5px;
-  padding-left: 0;
-  margin-right: 0px;
-}
-#header img {
-  padding-top: px;
-  padding-left: 0;
-  margin-right: 10px;
-}
-@media (max-width: 400px) {
-  #header .logo {
-    font-size: 22px;
-  }
+  height: 90px;
+  padding-right: 15px;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -178,7 +168,7 @@ hr.new {
 */
 .navbar {
   padding-top: 30px;
-  padding-right: 20px;
+  padding-right: 10px;
   float: right;
 }
 .navbar ul {
@@ -196,8 +186,8 @@ hr.new {
   display: flex;
   align-items: right;
   justify-content: space-between;
-  padding: 0px 0 0px 20px;
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  padding: 0px 0 0px 17px;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
   src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-size: 16px;
   font-weight: 700;
@@ -469,7 +459,7 @@ hr.new {
   margin-bottom: 30px;
 }
 #hero .btn-get-started {
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 700;
   font-size: 16px;
@@ -488,6 +478,7 @@ hr.new {
   color: #a07840;
   border: 3px solid #a078403f;
 }
+
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -536,6 +527,7 @@ section {
 .section-bg {
   background: #f7f7f7;
 }
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -646,6 +638,7 @@ section {
   color: #bd6d00;
 }
 #about .container p {
+  font-size:19px;
   color: #1d645a;
 }
 #about .container p a {
@@ -657,12 +650,12 @@ section {
 #about .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px 2px #888888;
   margin-bottom: 20px;
 }
 #about .about-col .img {
   position: relative;
-  box-shadow: 2px 2px 4px 4px #888888;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #about .about-col .img img {
   border-radius: 4px 4px 0 0;
@@ -722,16 +715,22 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
+  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   background: #fff;
   background-size: cover;
   padding-top:100px;
-  padding-bottom:140px;
+  padding-bottom:100px;
 }
 #services .box {
   margin-bottom: 30px;
 }
 #services h3 {
   color: #1f4329;
+}
+#services h4 {
+  color: #1f4329;
+  font-size:20;
 }
 #services h4 a{
   color: #bd6d00;
@@ -740,17 +739,16 @@ section {
   color: #18d26e;
 }
 #services p {
+  font-size:19px;
   margin-top: 20px;
   color: #1d645a;
 }
-#services .icon {
+#services .img {
   display: flexbox;
-  float: left;
+  float: right;
 }
-#services .icon i {
-  color: #bf7206;
-  font-size: 36px;
-  line-height: 0;
+#services .img i {
+    
   transition: 0.5s;
 }
 #services .title {
@@ -768,8 +766,8 @@ section {
   color: #18d26e;
 }
 #services .description {
-  font-size: 14px;
-  margin-left: 60px;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -780,8 +778,8 @@ section {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding-top: 140px;
-  padding-bottom: 140px;
-  box-shadow: 10px 10px 8px 10px #888888;
+  padding-bottom: 100px;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #call-to-action h2 {
   color: #fff;
@@ -789,6 +787,7 @@ section {
   font-weight: 500;
 }
 #call-to-action p {
+  font-size:19px;
   color: #fff;
 }
 #call-to-action .cta-btn {
@@ -814,6 +813,8 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #skills {
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   padding: 100px 0;
 }
 #skills h3 h4 {
@@ -825,6 +826,7 @@ section {
   text-align: center;
 }
 #skills p {
+  font-size:19px;
   color: #1d645a;
 }
 #skills .progress {
@@ -833,7 +835,7 @@ section {
   border-radius: 0;
 }
 #skills .progress .skill {
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   line-height: 40px;
   padding: 0;
@@ -862,6 +864,7 @@ section {
   color: #1f4329;
 }
 #facts p {
+  font-size:19px;
   color: #1f4329;
 }
 #facts::before {
@@ -879,7 +882,7 @@ section {
   z-index: 10;
 }
 #facts .counters span {
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: bold;
   font-size: 36px;
@@ -889,7 +892,7 @@ section {
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-size: 16px;
   color: #72552e;
@@ -941,7 +944,7 @@ section {
   margin-right: 0;
 }
 #portfolio .portfolio-wrap {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 1px 7px 2px #888888;
   transition: 0.3s;
 }
 #portfolio .portfolio-wrap:hover {
@@ -953,7 +956,7 @@ section {
   overflow: hidden;
 }
 #portfolio .portfolio-item figure {
-  background: #000;
+  background: #a07840e9;
   overflow: hidden;
   height: 240px;
   position: relative;
@@ -991,7 +994,7 @@ section {
   color: #fff;
 }
 #portfolio .portfolio-item figure .link-preview {
-  right: calc(20% - 38px);
+  left: calc(20% - 38px);
   top: calc(50% - 18px);
 }
 #portfolio .portfolio-item figure .link-details {
@@ -1000,7 +1003,7 @@ section {
 }
 #portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  right: calc(64% - 44px);
+  left: calc(62% - 44px);
 }
 #portfolio .portfolio-item figure:hover .link-details {
   opacity: 1;
@@ -1121,7 +1124,7 @@ section {
 --------------------------------*/
 #clients {
   padding: 100px 0;
-  box-shadow:  5px 5px 8px 10px #888888;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #clients h3 {
   color: #234b2e;
@@ -1155,7 +1158,7 @@ section {
 --------------------------------*/
 #testimonials {
   padding: 100px 0;
-  box-shadow:  5px 5px 8px 10px #888888;
+  box-shadow: 1px 1px 7px 2px #888888;
 }
 #testimonials h3 {
   color: #1f4329;
@@ -1299,11 +1302,13 @@ section {
 --------------------------------*/
 #contact {
   padding-top: 140px;
+  padding-bottom: 100px;
 }
 #contact h3 {
   color: #1f4329;
 }
 #contact p {
+  font-size:19px;
   color: #1d645a;
 }
 #contact .contact-info {
@@ -1434,9 +1439,6 @@ section {
 .blog {
   padding: 40px 0 20px 0;
 }
-.blog .container {
-  padding: 0;
-}
 .blog a {
   color: #bd6d00;
 }
@@ -1451,12 +1453,12 @@ section {
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0px;
   margin: 0 0 20px 0;
 }
 .blog .entry .entry-title a {
-  color: #554124;
+  color: #bd6d00;
   transition: 0.3s;
 }
 .blog .entry .entry-title a:hover {
@@ -1483,7 +1485,7 @@ section {
   line-height: 0;
 }
 .blog .entry .entry-meta a {
-  color: #554124;
+  color: #bd6d00;
   font-size: 14px;
   display: inline-block;
   line-height: 1;
@@ -1719,17 +1721,16 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   font-weight: 700;
-  letter-spacing: 3px;
   border-left: 4px solid #dd9d01;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+  font-family: 'Al-Jazeera-Arabic', "Montserrat", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
   color: #eee;
 }
