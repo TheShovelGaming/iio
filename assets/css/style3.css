@@ -17,7 +17,7 @@ body {
     font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }}
-@media ll and (min-width: 100px) and (max-width: 480px) {
+@media all and (min-width: 100px) and (max-width: 480px) {
   p h1 h2 h3 h4 h5 h6 {
     font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
