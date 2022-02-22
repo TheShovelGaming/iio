@@ -7,6 +7,22 @@ body {
   font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
     src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
 }
+@media screen and (min-width: 981px) and (max-width: 1381px) {
+  p h1 h2 h3 h4 h5 h6 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}}
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  p h1 h2 h3 h4 h5 h6 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}}
+@media ll and (min-width: 100px) and (max-width: 480px) {
+  p h1 h2 h3 h4 h5 h6 {
+    font-family: 'Al-Jazeera-Arabic', "Open Sans", sans-serif;
+    src: url(../vendor/fonts/Al-Jazeera-Arabic\ Bold.ttf);
+}}
+
 a {
   color: #bd6d00;
   transition: 0.5s;
@@ -270,6 +286,7 @@ hr.new {
   display: none;
   line-height: 1;
   transition: 0.5s;
+  padding-left: 20px;
 }
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -293,7 +310,7 @@ hr.new {
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 30px;
-  right: 30px;
+  left: 30px;
 }
 .navbar-mobile ul {
   display: block;

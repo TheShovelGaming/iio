@@ -266,6 +266,7 @@ hr.new {
   display: none;
   line-height: 1;
   transition: 0.5s;
+  padding-right: 20px;
 }
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -353,7 +354,7 @@ hr.new {
 }
 @media (max-height: 500px) {
   #hero {
-    height: 150vh;
+    height: 100vh;
   }
 }
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
