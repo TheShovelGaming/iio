@@ -467,7 +467,7 @@ section {
 }
 #featured-services p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.4em;
   color: #fff;
   margin-bottom: 0;
 }
@@ -568,7 +568,7 @@ section {
 }
 #about .about-col p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.4em;
   color: #1d645a;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
@@ -613,7 +613,7 @@ section {
   font-size: 16px;
   margin-right: 60px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.4em;
   margin-bottom: 0;
 }
 
@@ -675,7 +675,7 @@ section {
 }
 #skills .progress .skill {
   font-family: 'Almarai', sans-serif;
-  line-height: 35px;
+  line-height: 1.4em;
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
@@ -961,6 +961,11 @@ section {
 #clients h3 {
   color: #234b2e;
 }
+#clients p {
+  font-weight: 700;
+  text-align: center;
+  color: #1d645a;
+}
 #clients img {
   opacity: 0.5;
   transition: 0.3s;
@@ -990,6 +995,11 @@ section {
 }
 #testimonials h3 {
   color: #1f4329;
+}
+#testimonials p {
+  font-weight: 700;
+  text-align: center;
+  color: #1d645a;
 }
 #testimonials .section-header {
   margin-bottom: 40px;
@@ -1219,18 +1229,18 @@ section {
 .blog .entry .entry-title a:hover {
   color: #18d26e;
 }
-.blog .entry .entry-content h4{
+.blog .entry .entry-content h4, h5, p{
   color: #0f5530;
-  line-height: 24px;
+  line-height: 1.4em;
   font-weight: 700;
 }
 .blog .entry .entry-content {
   color: #0f5530;
-  line-height: 24px;
+  line-height: 1.4em;
   font-weight: 700;
 }
 .blog .entry .entry-content p a{
-  color: #85673ae9;
+  color: #bd6d00;
 }
 .blog .entry .entry-content p a:hover{
   color: #18d26e;
@@ -1414,6 +1424,7 @@ section {
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  color: #fff;
 }
 #footer .copyright {
   text-align: center;
@@ -1485,4 +1496,13 @@ BUTTONS
 }
 #title p {
   color: #fff;
+}
+table {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  text-align: center;
+  padding: 5px;
 }
