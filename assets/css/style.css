@@ -743,6 +743,12 @@ section {
 #portfolio h3 {
   color: #234b2e;
 }
+#portfolio p {
+  padding: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #234b2e;
+}
 #portfolio .lang h5 {
   color: #316640;
   font: 45px;
@@ -1283,14 +1289,15 @@ section {
   margin-top: 15px;
 }
 .blog .sidebar .recent-posts img {
-  margin-top: 7px;
-  margin-left: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
   margin-bottom:10px;
-  width: 80px;
+  width: 75px;
   float: right;
   box-shadow: 1px 1px 4px 4px #888888;
 }
 .blog .sidebar .recent-posts h4 {
+  padding-top: 8px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -1299,6 +1306,17 @@ section {
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
+  color: #18d26e;
+}
+.blog .sidebar .recent-posts h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.blog .sidebar .recent-posts h3 a {
+  color: #bd6d00;
+  transition: 0.3s;
+}
+.blog .sidebar .recent-posts h3 a:hover {
   color: #18d26e;
 }
 .blog .sidebar .recent-posts time {
