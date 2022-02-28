@@ -359,7 +359,7 @@ hr.new {
 }
 #hero .btn-get-started {
   font-family: 'Almarai', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   letter-spacing: 0px;
   display: inline-block;
@@ -742,7 +742,9 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 80px 0;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #portfolio h3 {
   color: #234b2e;
@@ -825,7 +827,7 @@ section {
   transition: 0.2s linear;
 }
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
-  font-size: 18px;
+  font-size: 22px;
   color: #234b2e;
   font-weight: 700;
   line-height: 0;
@@ -1226,6 +1228,9 @@ section {
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+.blog .entry-img {
+  margin-top: 50px;
+}
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
@@ -1294,8 +1299,8 @@ section {
 .blog .sidebar .recent-posts img {
   margin-top: 7px;
   margin-right: 15px;
-  margin-bottom:10px;
-  width: 80px;
+  margin-bottom:5px;
+  width: 75px;
   float: left;
   box-shadow: 1px 1px 4px 4px #888888;
 }
@@ -1308,6 +1313,17 @@ section {
   transition: 0.3s;
 }
 .blog .sidebar .recent-posts h4 a:hover {
+  color: #18d26e;
+}
+.blog .sidebar .recent-posts h3 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.blog .sidebar .recent-posts h3 a {
+  color: #bd6d00;
+  transition: 0.3s;
+}
+.blog .sidebar .recent-posts h3 a:hover {
   color: #18d26e;
 }
 .blog .sidebar .recent-posts time {

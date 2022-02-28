@@ -738,7 +738,9 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  padding: 80px 0;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #portfolio h3 {
   color: #234b2e;
@@ -1223,6 +1225,9 @@ section {
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
+.blog .entry-img {
+  margin-top: 50px;
+}
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
@@ -1289,15 +1294,14 @@ section {
   margin-top: 15px;
 }
 .blog .sidebar .recent-posts img {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom:10px;
+  margin-top: 7px;
+  margin-left: 15px;
+  margin-bottom:5px;
   width: 75px;
   float: right;
   box-shadow: 1px 1px 4px 4px #888888;
 }
 .blog .sidebar .recent-posts h4 {
-  padding-top: 8px;
   font-size: 15px;
   font-weight: bold;
 }
