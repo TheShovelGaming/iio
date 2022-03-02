@@ -21,6 +21,7 @@ p {
   margin: 0 0 30px 0;
 }
 h1, h2, h3, h4, h5, h6 {
+  color: #37655b;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -287,7 +288,7 @@ hr.new {
   text-align: center;
 }
 #hero h2 {
-  color: #00705b;
+  color: #37655b;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -381,7 +382,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: #37655b;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -423,7 +424,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #c3ffb4;
+  background-color: #b9aa78;
   min-height: 40px;
 }
 @media (max-width: 768px) {
@@ -553,7 +554,7 @@ section {
   color: #fff;
 }
 #about .about-col h2 {
-  color: #123a35;
+  color: #37655b;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -584,7 +585,7 @@ section {
   margin-bottom: 30px;
 }
 #services h3 {
-  color: #1f4329;
+  color: #37655b;
 }
 #services h4 a{
   color: #bd6d00;
@@ -656,12 +657,12 @@ section {
 #skills {
   padding: 100px 0;
 }
-#skills h3 h4 {
-  color: #1f4329;
+#skills h3 {
+  color: #37655b;
   text-align: center;
 }
 #skills h4 {
-  color: #1f4329;
+  color: #37655b;
   text-align: center;
 }
 #skills p {
@@ -698,7 +699,7 @@ section {
   position: relative;
 }
 #facts h3 {
-  color: #1f4329;
+  color: #37655b;
 }
 #facts p {
   color: #1f4329;
@@ -738,12 +739,13 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
+  background-color: #f7f1e4;
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
 #portfolio h3 {
-  color: #234b2e;
+  color: #37655b;
 }
 #portfolio p {
   padding: 30px;
@@ -966,7 +968,7 @@ section {
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #clients h3 {
-  color: #234b2e;
+  color: #37655b;
 }
 #clients p {
   font-size: 16px;
@@ -1002,7 +1004,7 @@ section {
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #testimonials h3 {
-  color: #1f4329;
+  color: #37655b;
 }
 #testimonials p {
   font-weight: 700;
@@ -1028,7 +1030,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #1d645a;
+  color: #37655b;
 }
 #testimonials .testimonial-item h4 {
   font-size: 14px;
@@ -1078,7 +1080,7 @@ section {
   padding: 60px 0;
 }
 #contact h3 {
-  color: #1f4329;
+  color: #37655b;
 }
 #contact p {
   color: #1d645a;
@@ -1210,6 +1212,7 @@ section {
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
+  background-color: #e4e5d9;
 }
 .blog .container {
   padding: 0;
@@ -1221,6 +1224,7 @@ section {
   color: #18d26e;
 }
 .blog .entry {
+  background-color: #f7f1e4;
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1257,6 +1261,7 @@ section {
   color: #18d26e;
 }
 .blog .sidebar {
+  background-color: #f7f1e4;
   padding: 30px;
   margin: 0 5px 60px 5px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1315,6 +1320,7 @@ section {
 .blog .sidebar .recent-posts h3 {
   font-size: 17px;
   font-weight: bold;
+  color: #37655b;
 }
 .blog .sidebar .recent-posts h3 a {
   color: #bd6d00;
@@ -1336,11 +1342,11 @@ section {
 #footer {
   background: #1f4329;
   padding: 0 0 30px 0;
-  color: #eee;
+  color: #f7f1e4;
   font-size: 14px;
 }
 #footer h3 {
-  color: #eee;
+  color: #f7f1e4;
 }
 #footer .footer-top {
   background: linear-gradient(40deg, #1f4329 20%, #242323 50%, #1f4329 100%);
@@ -1364,7 +1370,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
-  color: #eee;
+  color: #f7f1e4;
 }
 #footer .footer-contact p a:hover {
   color: #18d26e;
@@ -1397,7 +1403,7 @@ section {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1427,7 +1433,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 8px;
-  color: #ddd;
+  color: #f7f1e4;
 }
 #footer .footer-top .footer-links ul li {
   border-bottom: 1px solid #333;
@@ -1512,7 +1518,7 @@ BUTTONS
 }
 #title h1 {
   padding-top: 0px;
-  color: white;
+  color: #f7f1e4;
   font-size: 32px;
   font-weight: 700;
 }
