@@ -291,7 +291,7 @@ hr.new {
   color: #37655b;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 400;
   text-shadow: 1px 1px 2px #5756488e;
 }
 @media (max-width: 768px) {
@@ -356,7 +356,7 @@ hr.new {
 }
 #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -385,7 +385,7 @@ section {
   color: #37655b;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   position: relative;
   padding-bottom: 15px;
 }
@@ -424,7 +424,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background-color: #b9aa78;
+  background-color: #d96b4b;
   min-height: 40px;
 }
 @media (max-width: 768px) {
@@ -556,7 +556,7 @@ section {
 #about .about-col h2 {
   color: #37655b;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
@@ -595,12 +595,12 @@ section {
 }
 #services p {
   color: #1d645a;
-  font-weight: 700;
+  font-weight: 400;
 }
 #services .title {
   margin-left: 60px;
   margin-top: -35px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -628,7 +628,7 @@ section {
 #call-to-action h2 {
   color: #fff;
   font-size: 38px;
-  font-weight: 700;
+  font-weight: 400;
 }
 #call-to-action p {
   color: #fff;
@@ -750,13 +750,13 @@ section {
 #portfolio p {
   padding: 30px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 400;
   color: #234b2e;
 }
 #portfolio .lang h5 {
   color: #316640;
   font: 45px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
 }
 #portfolio #portfolio-flters {
@@ -827,7 +827,7 @@ section {
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   font-size: 22px;
   color: #234b2e;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 0;
 }
 #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
@@ -862,7 +862,7 @@ section {
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 16px;
   line-height: 1px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 16px;
   padding-bottom: 0;
 }
@@ -876,7 +876,7 @@ section {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -909,7 +909,7 @@ section {
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -927,7 +927,7 @@ section {
 }
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 20px;
 }
 .portfolio-details .portfolio-description p {
@@ -972,7 +972,7 @@ section {
 }
 #clients p {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   color: #1d645a;
 }
@@ -1007,7 +1007,7 @@ section {
   color: #37655b;
 }
 #testimonials p {
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   color: #1d645a;
 }
@@ -1137,7 +1137,7 @@ section {
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 #contact .php-email-form .error-message br + br {
   margin-top: 25px;
@@ -1148,7 +1148,7 @@ section {
   background: #18d26e;
   text-align: center;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 400;
 }
 #contact .php-email-form .loading {
   display: none;
@@ -1235,7 +1235,7 @@ section {
 .blog .entry .entry-title {
   color: #0f5530;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .blog .entry .entry-title a {
   color: #bd6d00;
@@ -1247,12 +1247,12 @@ section {
 .blog .entry .entry-content h4{
   color: #0f5530;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .blog .entry .entry-content {
   color: #0f5530;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 .blog .entry .entry-content p a{
   color: #bd6d00;
@@ -1361,7 +1361,7 @@ section {
   padding: 2px 0 2px 10px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 3px;
   border-left: 4px solid #dd9d01;
 }
@@ -1520,7 +1520,7 @@ BUTTONS
   padding-top: 0px;
   color: #f7f1e4;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 400;
 }
 #title p {
   color: #fff;
