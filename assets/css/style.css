@@ -620,7 +620,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.png) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/iio.png) fixed center center;
   background-size: cover;
   padding: 100px 0;
   box-shadow: 1px 1px 7px 2px #888888;
@@ -655,6 +655,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #skills {
+  background: rgb(250, 242, 244);
   padding: 100px 0;
 }
 #skills h3 {
@@ -1212,7 +1213,7 @@ section {
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
-  background-color: #e4e5d9;
+  background: url(../img/call-to-action-bg.png) fixed center center;
 }
 .blog .container {
   padding: 0;
