@@ -429,7 +429,7 @@ section {
 .breadcrumbs {
   padding: 20px 0;
   background-color: #d96b4b;
-  min-height: 40px;
+  min-height: 30px;
 }
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
