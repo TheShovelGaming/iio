@@ -166,7 +166,7 @@ hr.new {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", 'Almarai', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #a07840e9;
@@ -721,7 +721,7 @@ section {
 }
 #facts .counters span {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 36px;
   display: block;
   color: #1f4329;
@@ -1400,7 +1400,7 @@ section {
 }
 #footer .footer-top h4 {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
@@ -1413,11 +1413,14 @@ section {
   bottom: 0;
   height: 2px;
 }
-#footer .footer-top h4::before {
-  right: 0;
-  background: rgba(190, 123, 0, 0.411);
-}
 #footer .footer-top h4::after {
+  
+  background: rgba(190, 123, 0, 0.411);
+  width: 260px;
+  
+}
+#footer .footer-top h4::before {
+  left: 200px;
   background: #dd9d01;
   width: 60px;
 }
@@ -1451,6 +1454,7 @@ section {
 }
 #footer .footer-top .footer-contact p {
   line-height: 26px;
+  color: #f7f1e4;
 }
 #footer .copyright {
   text-align: center;
@@ -1459,7 +1463,7 @@ section {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #ddd;
+  color: #f7f1e4;
 }
 #footer .credits a:hover{
   color: #bf7206;
