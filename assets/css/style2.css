@@ -26,10 +26,10 @@ p {
   margin: 0 0 30px 0;
 }
 h1, h2, h3, h4, h5, h6 {
+  color: #37655b;
   font-family: 'Almarai', sans-serif;
   margin: 0 0 20px 0;
   padding: 0;
-  color: #37655b;
 }
 hr {
   color: green;
@@ -295,7 +295,7 @@ hr.new {
   color: #37655b;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
   text-shadow: 1px 1px 2px #5756488e;
 }
 @media (max-width: 768px) {
@@ -304,6 +304,7 @@ hr.new {
   }
 }
 #hero p {
+  font-weight: 700;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #00761e;
@@ -460,7 +461,7 @@ section {
   line-height: 1.6em;
 }
 #featured-services h4 {
-  font-weight: 400;
+  font-weight: 700;
   margin: 15px 0;
   font-size: 18px;
 }
@@ -473,10 +474,11 @@ section {
 #featured-services p {
   font-size: 14px;
   line-height: 1.6em;
-  color: #fff;
+  color: #f7f1e4;
   margin-bottom: 0;
 }
 #featured-services p a {
+  font-weight: 700;
   color: #bd904c;
 }
 #featured-services p a:hover {
@@ -504,13 +506,19 @@ section {
   position: relative;
   z-index: 10; 
 }
-#about .container h3 {
+#about .container h1 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
   color: #bd6d00;
+  margin-bottom: 30px;
 }
 #about .container p {
+  font-weight: 500;
   color: #1d645a;
 }
 #about .container p a {
+  font-weight: 700;
   color: #bd6d00;
 }
 #about .container p a:hover {
@@ -560,7 +568,7 @@ section {
 #about .about-col h2 {
   color: #37655b;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
@@ -572,6 +580,7 @@ section {
   color: #18d26e;
 }
 #about .about-col p {
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.6em;
   color: #1d645a;
@@ -583,7 +592,7 @@ section {
 #services {
   background: #fff;
   background-size: cover;
-  padding: 80px 0 40px 0;
+  padding: 90px 0 40px 0;
 }
 #services .box {
   margin-bottom: 30px;
@@ -599,7 +608,7 @@ section {
 }
 #services p {
   color: #1d645a;
-  font-weight: 400;
+  font-weight: 600;
 }
 #services .title {
   margin-right: 60px;
@@ -625,23 +634,23 @@ section {
 --------------------------------*/
 #call-to-action {
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/iio.png) fixed center center;
-
   background-size: cover;
-  padding: 100px 0;
+  padding: 110px 0;
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #call-to-action h2 {
-  color: #fff;
+  color: #f7f1e4;
   font-size: 38px;
   font-weight: 400;
 }
 #call-to-action p {
-  color: #fff;
+  font-weight: 600;
+  color: #f7f1e4;
 }
 #call-to-action .cta-btn {
   font-family: 'Almarai', sans-serif;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -663,7 +672,7 @@ section {
   background: rgb(250, 242, 244);
   padding: 100px 0;
 }
-#skills h3 h4 {
+#skills h3 {
   color: #37655b;
   text-align: center;
 }
@@ -708,6 +717,7 @@ section {
   color: #37655b;
 }
 #facts p {
+  font-weight: 600;
   color: #1f4329;
 }
 #facts::before {
@@ -746,7 +756,7 @@ section {
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 40px;
+  padding-top: 90px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -756,8 +766,11 @@ section {
 #portfolio p {
   padding: 30px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   color: #234b2e;
+}
+#portfolio p a{
+  color: #bd6d00;
 }
 #portfolio .lang h5 {
   color: #316640;
@@ -970,14 +983,14 @@ section {
 /* Clients Section
 --------------------------------*/
 #clients {
-  padding: 100px 0;
+  padding: 110px 0;
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #clients h3 {
   color: #37655b;
 }
 #clients p {
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   color: #1d645a;
 }
@@ -1012,7 +1025,7 @@ section {
   color: #37655b;
 }
 #testimonials p {
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
   color: #1d645a;
 }
@@ -1033,7 +1046,7 @@ section {
 }
 #testimonials .testimonial-item h3 {
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 10px 0 5px 0;
   color: #37655b;
 }
@@ -1056,7 +1069,6 @@ section {
   width: 37px;
 }
 #testimonials .testimonial-item p {
-  font-style: italic;
   margin: 0 auto 15px auto;
   color: #72552e;
 }
@@ -1078,139 +1090,6 @@ section {
 }
 #testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
-}
-/* Contact Section
---------------------------------*/
-#contact {
-  padding: 60px 0;
-}
-#contact h3 {
-  color: #37655b;
-}
-#contact p {
-  color: #1d645a;
-}
-#contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
-}
-#contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #18d26e;
-}
-#contact .contact-info address, #contact .contact-info p {
-  margin-bottom: 0;
-  color: #000;
-}
-#contact .contact-info h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #999;
-}
-#contact .contact-info a {
-  color: #c99951;
-}
-#contact .contact-info a:hover {
-  color: #18d26e;
-}
-#contact .contact-address, #contact .contact-phone, #contact .contact-email {
-  margin-bottom: 20px;
-}
-@media (min-width: 768px) {
-  #contact .contact-address, #contact .contact-phone, #contact .contact-email {
-    padding: 20px 0;
-  }
-}
-@media (min-width: 768px) {
-  #contact .contact-phone {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
-}
-#contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 30px;
-  background: #fff;
-}
-#contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 400;
-}
-#contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-#contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 400;
-}
-#contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-#contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-#contact .php-email-form .form-group {
-  margin-bottom: 20px;
-}
-#contact .php-email-form input, #contact .php-email-form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
-  background-color: #18d26e;
-}
-#contact .php-email-form button[type=submit] {
-  background: #18d26e;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-}
-#contact .php-email-form button[type=submit]:hover {
-  background: #13a456;
-}
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 /*--------------------------------------------------------------
 # Blog
@@ -1384,7 +1263,7 @@ section {
 }
 #footer .footer-top h4 {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
