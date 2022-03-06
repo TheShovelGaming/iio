@@ -2,7 +2,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #e4e5d9;
   color: #666666;
   font-family: "Open Sans", sans-serif;
 }
@@ -1348,27 +1348,7 @@ section {
 }
 #footer .footer-top {
   background: linear-gradient(40deg, #1f4329 20%, #242323 50%, #1f4329 100%);
-  padding: 60px 0 30px 0;
-}
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-info h3 {
-  font-size: 18px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 10px;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  letter-spacing: 3px;
-  border-left: 4px solid #dd9d01;
-}
-#footer .footer-top .footer-info p {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #f7f1e4;
+  padding: 30px 0 30px 0;
 }
 #footer .footer-contact p a:hover {
   color: #18d26e;
@@ -1414,10 +1394,8 @@ section {
   height: 2px;
 }
 #footer .footer-top h4::after {
-  
   background: rgba(190, 123, 0, 0.411);
   width: 260px;
-  
 }
 #footer .footer-top h4::before {
   left: 200px;
@@ -1458,7 +1436,7 @@ section {
 }
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 5px;
 }
 #footer .credits {
   text-align: center;
