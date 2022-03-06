@@ -712,6 +712,7 @@ section {
   color: #37655b;
 }
 #facts p {
+  font-weight: 600;
   color: #1f4329;
 }
 #facts::before {
