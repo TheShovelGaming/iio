@@ -291,7 +291,7 @@ hr.new {
   color: #37655b;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
   text-shadow: 1px 1px 2px #5756488e;
 }
 @media (max-width: 768px) {
@@ -300,6 +300,7 @@ hr.new {
   }
 }
 #hero p {
+  font-weight: 700;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #00761e;
@@ -456,7 +457,7 @@ section {
   line-height: 1;
 }
 #featured-services h4 {
-  font-weight: 400;
+  font-weight: 700;
   margin: 15px 0;
   font-size: 18px;
 }
@@ -469,10 +470,11 @@ section {
 #featured-services p {
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
+  color: #f7f1e4;
   margin-bottom: 0;
 }
 #featured-services p a {
+  font-weight: 700;
   color: #bd904c;
 }
 #featured-services p a:hover {
@@ -504,9 +506,11 @@ section {
   color: #bd6d00;
 }
 #about .container p {
+  font-weight: 500;
   color: #1d645a;
 }
 #about .container p a {
+  font-weight: 700;
   color: #bd6d00;
 }
 #about .container p a:hover {
@@ -556,7 +560,7 @@ section {
 #about .about-col h2 {
   color: #37655b;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
@@ -568,6 +572,7 @@ section {
   color: #18d26e;
 }
 #about .about-col p {
+  font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   color: #1d645a;
