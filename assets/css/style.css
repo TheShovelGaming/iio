@@ -604,7 +604,7 @@ section {
 }
 #services p {
   color: #1d645a;
-  font-weight: 400;
+  font-weight: 600;
 }
 #services .title {
   margin-left: 60px;
@@ -635,12 +635,13 @@ section {
   box-shadow: 1px 1px 7px 2px #888888;
 }
 #call-to-action h2 {
-  color: #fff;
+  color: #f7f1e4;
   font-size: 38px;
   font-weight: 400;
 }
 #call-to-action p {
-  color: #fff;
+  font-weight: 600;
+  color: #f7f1e4;
 }
 #call-to-action .cta-btn {
   font-family: "Montserrat", sans-serif;
