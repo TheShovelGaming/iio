@@ -483,7 +483,7 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: url("../img/about-bg.jpg") center top no-repeat fixed;
+  background: url("../img/about-bg.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -629,7 +629,7 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/iio.png) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/iio.webp) fixed center center;
   background-size: cover;
   padding: 110px 0;
   box-shadow: 1px 1px 7px 2px #888888;
@@ -704,7 +704,7 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../img/facts-bg.webp") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 0 0;
   position: relative;
@@ -1093,7 +1093,7 @@ section {
 --------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
-  background: url(../img/call-to-action-bg.png) fixed center center;
+  background: url(../img/call-to-action-bg.webp) fixed center center;
 }
 .blog .container {
   padding: 0;
