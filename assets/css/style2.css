@@ -1222,7 +1222,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #1f4329;
+  background-image: linear-gradient(240deg, #1f4329 0%, #242323 50%, #1f4329 100%);
   padding: 0 0 30px 0;
   color: #f7f1e4;
   font-size: 14px;
@@ -1231,7 +1231,7 @@ section {
   color: #f7f1e4;
 }
 #footer .footer-top {
-  background: linear-gradient(40deg, #1f4329 20%, #242323 50%, #1f4329 100%);
+  background-image: linear-gradient(240deg, #1f4329 0%, #242323 50%, #1f4329 100%);
   padding: 30px 0 30px 0;
 }
 #footer .footer-contact p a:hover {
