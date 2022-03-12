@@ -1308,7 +1308,7 @@ section {
   color: #cc9e58;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: green;
+  color: rgb(0, 255, 0);
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1327,7 +1327,7 @@ section {
   color: #f7f1e4;
 }
 #footer .credits a:hover{
-  color: #bf7206;
+  color: rgb(1, 255, 1);
 }
 /*********
 
