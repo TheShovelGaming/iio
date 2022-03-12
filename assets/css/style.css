@@ -272,7 +272,7 @@ hr.new {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(243, 232, 232, 0.801);
+  background-color: rgba(254, 255, 247, 0.801);
 }
 #hero .carousel-container {
   display: flex;
