@@ -732,7 +732,7 @@ section {
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 90px;
+  padding-top: 65px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1091,6 +1091,7 @@ section {
 }
 .blog .entry {
   background-color: #f7f1e4;
+  padding-top: 0px;
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1128,7 +1129,7 @@ section {
 .blog .sidebar {
   background-color: #f7f1e4;
   padding: 30px;
-  padding-top: 70px;
+  padding-top: 80px;
   margin: 0 5px 60px 5px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
