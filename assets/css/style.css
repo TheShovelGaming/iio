@@ -218,7 +218,7 @@ hr.new {
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   top: 15px;
-  right: 15px;
+  right: 5px;
 }
 .navbar-mobile ul {
   display: block;
