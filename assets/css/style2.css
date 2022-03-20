@@ -199,6 +199,7 @@ hr.new {
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
+    padding-top: 10px;
   }
   .navbar ul {
     display: none;
@@ -334,7 +335,7 @@ hr.new {
   transform: translate3d(0, 0, 0);
 }
 #hero .carousel-control-prev, #hero .carousel-control-next {
-  width: 10%;
+  width: 12%;
   color: rgb(0, 68, 0);
 }
 @media (min-width: 1024px) {
