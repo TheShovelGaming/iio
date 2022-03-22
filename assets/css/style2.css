@@ -381,7 +381,7 @@ section {
 }
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+.section-header h2 {
   font-size: 32px;
   color: #37655b;
   text-transform: uppercase;
@@ -390,7 +390,7 @@ section {
   position: relative;
   padding-bottom: 15px;
 }
-.section-header h3::before {
+.section-header h2::before {
   content: "";
   position: absolute;
   display: block;
@@ -400,7 +400,7 @@ section {
   bottom: 1px;
   left: calc(50% - 60px);
 }
-.section-header h3::after {
+.section-header h2::after {
   content: "";
   position: absolute;
   display: block;
