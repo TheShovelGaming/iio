@@ -1162,10 +1162,15 @@ section {
 .blog .sidebar .recent-posts .post-item + .post-item {
   margin-top: 15px;
 }
+.blog .sidebar .recent-posts {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
 .blog .sidebar .recent-posts img {
   margin-top: 0px;
   margin-left: 15px;
-  margin-bottom:5px;
+  margin-bottom:35px;
   width: 75px;
   float: right;
   box-shadow: 1px 1px 4px 4px #888888;
@@ -1201,6 +1206,10 @@ section {
   color: #b3b3b3;
 }
 .blog .reading {
+  font-weight: 700;
+}
+.blog .sidebar .links {
+  font-size: 17px;
   font-weight: 700;
 }
 /*--------------------------------------------------------------
