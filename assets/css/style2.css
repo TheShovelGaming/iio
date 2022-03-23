@@ -597,6 +597,7 @@ section {
 #services h3 {
   color: #37655b;
   font-weight: 500;
+  text-align: center;
 }
 #services p {
   color: #37655b;
@@ -692,6 +693,7 @@ section {
 #facts h3 {
   color: #37655b;
   font-weight: 500;
+  text-align: center;
 }
 #facts p {
   font-weight: 500;
@@ -740,6 +742,7 @@ section {
 #portfolio h3 {
   color: #37655b;
   font-weight: 500;
+  text-align: center;
 }
 #portfolio p {
   padding: 30px;
@@ -970,6 +973,7 @@ section {
 #clients h3 {
   color: #37655b;
   font-weight: 500;
+  text-align: center;
 }
 #clients p {
   font-weight: 500;
@@ -1009,6 +1013,7 @@ section {
 #testimonials h3 {
   color: #37655b;
   font-weight: 500;
+  text-align: center;
 }
 #testimonials p {
   font-weight: 500;
@@ -1252,7 +1257,7 @@ section {
 }
 #footer .footer-top h4 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
