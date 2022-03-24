@@ -21,7 +21,7 @@ p {
   margin: 0 0 30px 0;
 }
 p a {
-  font-weight: 700;
+  font-weight: 800;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
@@ -478,7 +478,7 @@ section {
   margin-bottom: 0;
 }
 #featured-services p a {
-  font-weight: 700;
+  font-weight: 800;
   color: #bd904c;
 }
 #featured-services p a:hover {
@@ -518,7 +518,7 @@ section {
   color: #37655b;
 }
 #about .container p a {
-  font-weight: 700;
+  font-weight: 800;
   color: #bd6d00;
 }
 #about .container p a:hover {
@@ -683,7 +683,7 @@ section {
   font-weight: 500;
 }
 #skills p a {
-  font-weight: 700;
+  font-weight: 800;
 }
 /* Facts Section
 --------------------------------*/
@@ -756,7 +756,7 @@ section {
 }
 #portfolio p a{
   color: #bd6d00;
-  font-weight: 700;
+  font-weight: 800;
 }
 #portfolio p a:hover{
   color: #18d26e;
@@ -985,7 +985,7 @@ section {
   color: #37655b;
 }
 #clients p a {
-  font-weight: 700;
+  font-weight: 800;
 }
 #clients img {
   opacity: 0.5;
@@ -1025,7 +1025,7 @@ section {
   color: #37655b;
 }
 #testimonials p a {
-  font-weight: 700;
+  font-weight: 800;
 }
 #testimonials .section-header {
   margin-bottom: 40px;
@@ -1171,7 +1171,7 @@ section {
 }
 .blog .sidebar .recent-posts {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.3em;
 }
 .blog .sidebar .recent-posts img {
@@ -1184,7 +1184,7 @@ section {
 }
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 800;
 }
 .blog .sidebar .recent-posts h4 a {
   color: #bd6d00;
@@ -1195,7 +1195,7 @@ section {
 }
 .blog .sidebar .recent-posts h3 {
   font-size: 19px;
-  font-weight: 700;
+  font-weight: 800;
   color: #37655b;
 }
 .blog .sidebar .recent-posts h3 a {
@@ -1213,7 +1213,7 @@ section {
   color: #b3b3b3;
 }
 .blog .reading {
-  font-weight: 700;
+  font-weight: 800;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -1337,7 +1337,7 @@ BUTTONS
   margin:20px 0;
   text-align:center;
   list-style:none;
-  font-weight: 700;
+  font-weight: 800;
 } 
 .pager li {
   display:inline
