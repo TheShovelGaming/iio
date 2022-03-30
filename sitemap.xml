@@ -11,16 +11,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://omanis-for-tolerance.com/index.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/ar/index.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://omanis-for-tolerance.com/exhibition/history.html</loc>
   <lastmod>2022-03-21T23:12:32+00:00</lastmod>
   <priority>0.80</priority>
@@ -82,11 +72,6 @@
 </url>
 <url>
   <loc>https://omanis-for-tolerance.com/virtual/virtsq.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/ar/virtual/virtar.html</loc>
   <lastmod>2022-03-21T23:12:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -216,6 +201,101 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2011de.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2012uk.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2014si.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2014us.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2014ko.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2015it.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2015mk.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2016ca.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2016sp.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2017jp.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2018fr.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/exhibition/2019un.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/iio/ibad.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/manuscript.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/iio/coexist.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/resonance/recognition.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/resonance/media.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/iio/art.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/network/actions.html</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://omanis-for-tolerance.com/footer/contact.html</loc>
   <lastmod>2022-03-21T23:12:32+00:00</lastmod>
   <priority>0.80</priority>
@@ -227,6 +307,56 @@
 </url>
 <url>
   <loc>https://omanis-for-tolerance.com/footer/imprint.html</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/UN_dokumentation_125_web.pdf</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/colbook.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/augsburg1.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/augsburg2.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/augsburg3.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/Leicester1.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/Leicester2.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/docs/Ljublijana.pdf</loc>
+  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/ar/</loc>
+  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://omanis-for-tolerance.com/ar/virtual/virtar.html</loc>
   <lastmod>2022-03-21T23:12:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -406,147 +536,12 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://omanis-for-tolerance.com/docs/UN_dokumentation_125_web.pdf</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/colbook.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/augsburg1.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/augsburg2.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/augsburg3.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/Leicester1.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/Leicester2.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/docs/Ljublijana.pdf</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2011de.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2012uk.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2014si.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2014us.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2014ko.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2015it.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2015mk.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2016ca.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2016sp.html</loc>
-  <lastmod>2022-03-21T23:12:32+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2017jp.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2018fr.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/exhibition/2019un.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/iio/ibad.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/manuscript.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/iio/coexist.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/resonance/recognition.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/resonance/media.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/iio/art.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://omanis-for-tolerance.com/ar/coexist/educate.html</loc>
   <lastmod>2022-03-21T23:20:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://omanis-for-tolerance.com/ar/iio/women.html</loc>
-  <lastmod>2022-03-21T23:20:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://omanis-for-tolerance.com/network/actions.html</loc>
   <lastmod>2022-03-21T23:20:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
@@ -660,5 +655,4 @@
   <lastmod>2022-03-21T23:20:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 </urlset>
