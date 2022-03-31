@@ -1271,21 +1271,20 @@ section {
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 20px;
 }
 #footer .footer-top h4::before, #footer .footer-top h4::after {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
-  height: 2px;
-}
-#footer .footer-top h4::after {
-  background: rgba(190, 123, 0, 0.411);
-  width: 260px;
+  height: 4px;
 }
 #footer .footer-top h4::before {
-  left: 200px;
+  left: 0;
+  background: rgba(190, 123, 0, 0.411);
+}
+#footer .footer-top h4::after {
   background: #dd9d01;
   width: 60px;
 }
@@ -1326,7 +1325,7 @@ section {
   padding-top: 5px;
 }
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #f7f1e4;

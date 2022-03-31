@@ -1265,14 +1265,14 @@ section {
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 20px;
 }
 #footer .footer-top h4::before, #footer .footer-top h4::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 2px;
+  height: 4px;
 }
 #footer .footer-top h4::before {
   right: 0;
@@ -1319,7 +1319,7 @@ section {
   padding-top: 5px;
 }
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #f7f1e4;
