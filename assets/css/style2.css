@@ -669,20 +669,20 @@ section {
 }
 /* Call To Action Section
 --------------------------------*/
-#skills {
+#values {
   background: rgb(250, 242, 244);
-  padding: 100px 0;
+  padding: 120px 0;
 }
-#skills h3 {
+#values h3 {
   color: #37655b;
   text-align: center;
   font-weight: 500;
 }
-#skills p {
+#values p {
   color: #37655b;
   font-weight: 500;
 }
-#skills p a {
+#values p a {
   font-weight: 800;
 }
 /* Facts Section
