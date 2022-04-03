@@ -968,44 +968,44 @@ section {
 #portfolio .lang .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #00853e;
 }
-/* Clients Section
+/* network Section
 --------------------------------*/
-#clients {
+#network {
   padding: 110px 0;
   box-shadow: 1px 1px 7px 2px #888888;
 }
-#clients h3 {
+#network h3 {
   color: #37655b;
   font-weight: 500;
   text-align: center;
 }
-#clients p {
+#network p {
   font-weight: 500;
   text-align: center;
   color: #37655b;
 }
-#clients p a {
+#network p a {
   font-weight: 800;
 }
-#clients img {
+#network img {
   opacity: 0.5;
   transition: 0.3s;
 }
-#clients img:hover {
+#network img:hover {
   opacity: 1;
 }
-#clients .swiper-pagination {
+#network .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
-#clients .swiper-pagination .swiper-pagination-bullet {
+#network .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #18d26e;
 }
-#clients .swiper-pagination .swiper-pagination-bullet-active {
+#network .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #18d26e;
 }
 /* Testimonials Section

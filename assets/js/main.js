@@ -231,9 +231,9 @@
   });
 
   /**
-   * Clients Slider
+   * network Slider
    */
-  new Swiper('.clients-slider', {
+  new Swiper('.network-slider', {
     speed: 1500,
     loop: true,
     autoplay: {
