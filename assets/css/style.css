@@ -587,39 +587,39 @@ section {
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
 }
-/* Services Section
+/* Coexist Section
 --------------------------------*/
-#services {
+#coexist {
   background: #fff;
   background-size: cover;
   padding: 90px 0 40px 0;
 }
-#services .box {
+#coexist .box {
   margin-bottom: 30px;
 }
-#services h3 {
+#coexist h3 {
   color: #37655b;
   font-weight: 500;
   text-align: center;
 }
-#services p {
+#coexist p {
   color: #37655b;
   font-weight: 500;
 }
-#services .title {
+#coexist .title {
   margin-left: 60px;
   margin-top: -35px;
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 18px;
 }
-#services .title a {
+#coexist .title a {
   color: #bd6d00;
 }
-#services .box:hover .title a {
+#coexist .box:hover .title a {
   color: #18d26e;
 }
-#services .description {
+#coexist .description {
   font-weight: 500;
   font-size: 14px;
   margin-left: 60px;
