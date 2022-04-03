@@ -90,15 +90,15 @@
   }
 
   /**
-   * Hero carousel indicators
+   * intro carousel indicators
    */
-  let heroCarouselIndicators = select("#hero-carousel-indicators")
-  let heroCarouselItems = select('#heroCarousel .carousel-item', true)
+  let introCarouselIndicators = select("#intro-carousel-indicators")
+  let introCarouselItems = select('#introCarousel .carousel-item', true)
 
-  heroCarouselItems.forEach((item, index) => {
+  introCarouselItems.forEach((item, index) => {
     (index === 0) ?
-    heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
-      heroCarouselIndicators.innerHTML += "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>"
+    introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "' class='active'></li>":
+      introCarouselIndicators.innerHTML += "<li data-bs-target='#introCarousel' data-bs-slide-to='" + index + "'></li>"
   });
 
   /**
