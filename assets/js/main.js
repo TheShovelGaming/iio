@@ -90,7 +90,7 @@
   }
 
   /**
-   * intro carousel indicators
+   * Intro carousel indicators
    */
   let introCarouselIndicators = select("#intro-carousel-indicators")
   let introCarouselItems = select('#introCarousel .carousel-item', true)
@@ -231,7 +231,7 @@
   });
 
   /**
-   * network Slider
+   * Network Slider
    */
   new Swiper('.network-slider', {
     speed: 1500,
