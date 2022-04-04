@@ -25,7 +25,7 @@ p a {
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Almarai', "Montserrat", sans-serif;
   font-weight: 500;
   margin: 0 0 20px 0;
   padding: 0;
@@ -228,8 +228,8 @@ hr.new {
   display: block;
   position: absolute;
   top: 55px;
-  right: 15px;
   bottom: 15px;
+  right: 15px;
   left: 15px;
   padding: 10px 0;
   background-color: #fff;
@@ -717,9 +717,9 @@ section {
   z-index: 10;
 }
 #facts .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 36px;
+  font-family: "Montserrat", 'Almarai', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
   display: block;
   color: #72552e;
 }
@@ -738,7 +738,7 @@ section {
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 65px;
+  padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1331,7 +1331,7 @@ section {
   color: #f7f1e4;
 }
 #footer .credits a:hover{
-  color: rgb(0, 255, 0);
+  color: rgb(1, 255, 1);
 }
 /*********
 

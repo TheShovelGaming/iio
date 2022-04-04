@@ -25,7 +25,7 @@ p a {
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
-  font-family: 'Almarai', sans-serif;
+  font-family: 'Almarai', "Montserrat", sans-serif;
   font-weight: 500;
   margin: 0 0 20px 0;
   padding: 0;
@@ -228,9 +228,9 @@ hr.new {
   display: block;
   position: absolute;
   top: 55px;
-  left: 15px;
   bottom: 15px;
   right: 15px;
+  left: 15px;
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
@@ -717,9 +717,9 @@ section {
   z-index: 10;
 }
 #facts .counters span {
-  font-family: 'Almarai', sans-serif;
-  font-weight: 400;
-  font-size: 42px;
+  font-family: "Montserrat", 'Almarai', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
   display: block;
   color: #72552e;
 }
@@ -727,7 +727,7 @@ section {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: 'Almarai', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #37655b;
 }
 #facts .facts-img {
@@ -738,7 +738,7 @@ section {
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 90px;
+  padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -1100,6 +1100,7 @@ section {
 }
 .blog .entry {
   background-color: #f7f1e4;
+  padding-top: 0px;
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -1137,7 +1138,7 @@ section {
 .blog .sidebar {
   background-color: #f7f1e4;
   padding: 30px;
-  padding-top: 70px;
+  padding-top: 80px;
   margin: 0 5px 60px 5px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
@@ -1214,6 +1215,10 @@ section {
 }
 .blog .reading {
   font-weight: 800;
+}
+.blog .sidebar .links {
+  font-size: 17px;
+  font-weight: 700;
 }
 /*--------------------------------------------------------------
 # Footer
