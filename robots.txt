@@ -1,5 +1,4 @@
 User-agent: *
-Allow: /
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://omanis-for-tolerance.com/sitemap.xml
