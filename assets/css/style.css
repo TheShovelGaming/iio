@@ -269,7 +269,7 @@ hr.new {
   left: 0;
   bottom: 0;
 }
-#intro .carousel-item {
+#intro .carousel-item { 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

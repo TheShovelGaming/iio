@@ -274,7 +274,7 @@ hr.new {
   background-position: center;
   background-repeat: no-repeat;
 }
-#intro .carousel-item::before {
+#intro .carousel-item::before { 
   content: "";
   background-color: rgba(254, 255, 247, 0.9);
 }
@@ -1335,7 +1335,6 @@ section {
 /*********
 
 BUTTONS
-
 *********/
 .pager {
   padding-left:0;
