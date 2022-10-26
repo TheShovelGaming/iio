@@ -33,10 +33,34 @@
   font-style: normal;
   font-display: swap;
   }
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://the4z.com/assets/css/fonts/OpenSans-Regular.eot');
+    src: url('https://the4z.com/assets/css/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Regular.woff') format('woff'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Regular.ttf') format('truetype'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('https://the4z.com/assets/css/fonts/OpenSans-Bold.eot');
+    src: url('https://the4z.com/assets/css/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Bold.woff') format('woff'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Bold.ttf') format('truetype'),
+        url('https://the4z.com/assets/css/fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
 body {
   background: #e4e5d9;
   color: #666666;
-  font-family: 'al-jazeera-arabic_regular', sans-serif;
+  font-family: 'al-jazeera-arabic_regular', 'Open Sans', sans-serif;
 }
 a {
   color: #bd6d00;
@@ -51,9 +75,6 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
-}
-p a {
-  font-weight: 800;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
