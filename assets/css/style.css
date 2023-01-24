@@ -299,11 +299,10 @@
     font-style: italic;
     font-display: swap;
 }
-
 body {
   background: #e4e5d9;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family:'Open Sans',sans-serif;
 }
 a {
   color: #bd6d00; 
