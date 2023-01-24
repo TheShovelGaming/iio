@@ -1825,26 +1825,10 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
 }
-#footer .footer-top .footer-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-#footer .footer-top .footer-links ul i {
-  padding-right: 8px;
-  color: #f7f1e4;
-}
-#footer .footer-top .footer-links ul li {
-  border-bottom: 1px solid #333;
-  padding: 5px 0;
-}
-#footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
-}
-#footer .footer-top .footer-links ul a {
+#footer .footer-top .footer-links a {
   color: #cc9e58;
 }
-#footer .footer-top .footer-links ul a:hover {
+#footer .footer-top .footer-links a:hover {
   color: rgb(0, 255, 0);
 }
 #footer .footer-top .footer-contact {
@@ -1857,12 +1841,23 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 5px;
+  font-weight: 500;
+}
+#footer .copyright a {
+  color: #cc9e58;
+}
+#footer .copyright a:hover {
+  color: rgb(1, 255, 1);
 }
 #footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #f7f1e4;
+  font-weight: 500;
+}
+#footer .credits a {
+  color: #cc9e58;
 }
 #footer .credits a:hover{
   color: rgb(1, 255, 1);
