@@ -1029,13 +1029,247 @@ section {
   text-align: center;
   padding-top: 30px;
 }
+/* virtual Section
+--------------------------------*/
+#virtual {
+  background-color: #f7f1e4;
+  padding-top: 120px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+#virtual h3 {
+  color: #37655b;
+  font-weight: 500;
+  text-align: center;
+  font-size: 25px;
+}
+#virtual p {
+  padding: 30px;
+  text-align: center;
+  font-weight: 500;
+  color: #37655b;
+}
+#virtual p a{
+  color: #bd6d00;
+  font-weight: 700;
+}
+#virtual p a:hover{
+  color: #18d26e;
+}
+#virtual .lang h5 {
+  color: #37655b;
+  font: 45px;
+  font-weight: 400;
+  text-align: center;
+}
+#virtual #virtual-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+#virtual #virtual-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+#virtual #virtual-flters li:hover, #virtual #virtual-flters li.filter-active {
+  background: #18d26e;
+  color: #fff;
+}
+#virtual #virtual-flters li:last-child {
+  margin-right: 0;
+}
+#virtual .virtual-wrap {
+  box-shadow: 1px 1px 7px 2px #888888;
+  transition: 0.3s;
+}
+#virtual .virtual-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+#virtual .virtual-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+#virtual .virtual-item figure {
+  background: #a07840e9;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+#virtual .virtual-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+#virtual .virtual-item figure .link-preview, #virtual .virtual-item figure .link-details {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+#virtual .virtual-item figure .link-preview i, #virtual .virtual-item figure .link-details i {
+  font-size: 22px;
+  color: #234b2e;
+  font-weight: 400;
+  line-height: 0;
+}
+#virtual .virtual-item figure .link-preview:hover, #virtual .virtual-item figure .link-details:hover {
+  background: #18d26e;
+}
+#virtual .virtual-item figure .link-preview:hover i, #virtual .virtual-item figure .link-details:hover i {
+  color: #fff;
+}
+#virtual .virtual-item figure .link-preview {
+  left: calc(20% - 38px);
+  top: calc(50% - 18px);
+}
+#virtual .virtual-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+#virtual .virtual-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(62% - 44px);
+}
+#virtual .virtual-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+#virtual .virtual-item .virtual-info {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  height: 60px;
+  border-radius: 0 0 3px 3px;
+}
+#virtual .virtual-item .virtual-info h4 {
+  font-size: 16px;
+  line-height: 1px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  padding-bottom: 0;
+}
+#virtual .virtual-item .virtual-info h4 a {
+  color: #554124;
+}
+#virtual .virtual-item .virtual-info h4 a:hover {
+  color: #18d26e;
+}
+#virtual .virtual-item .virtual-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/*--------------------------------------------------------------
+# virtual Details
+--------------------------------------------------------------*/
+.virtual-details {
+  padding-top: 40px;
+}
+.virtual-details .virtual-details-slider img {
+  width: 100%;
+}
+.virtual-details .virtual-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.virtual-details .virtual-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+.virtual-details .virtual-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
+}
+.virtual-details .virtual-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(51, 51, 51, 0.08);
+}
+.virtual-details .virtual-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.virtual-details .virtual-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.virtual-details .virtual-info ul li + li {
+  margin-top: 10px;
+}
+.virtual-details .virtual-description {
+  padding-top: 30px;
+}
+.virtual-details .virtual-description h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.virtual-details .virtual-description p {
+  padding: 0;
+}
+#virtual .lang {
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+}
+#virtual .lang img {
+  opacity: 0.5;
+  transition: 0.1s;
+  padding-top: 30px;
+}
+#virtual .lang img:hover {
+  opacity: 1;
+}
+#virtual .lang .swiper-pagination {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#virtual .lang .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+#virtual .lang .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #00853e;
+}
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 40px;
+  padding-top: 120px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px
 }
 #portfolio h3 {
   color: #37655b;
