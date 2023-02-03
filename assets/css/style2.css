@@ -79,7 +79,6 @@ p {
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
   font-family: 'al-jazeera-arabic-bold', sans-serif;
-  font-weight: 500;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -348,7 +347,6 @@ hr.new {
   color: #37655b;
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 500;
 }
 @media (max-width: 768px) {
   #intro h2 {
@@ -356,7 +354,6 @@ hr.new {
   }
 }
 #intro p {
-  font-weight: 500;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #37655b;
@@ -417,8 +414,7 @@ hr.new {
   cursor: pointer;
 }
 #intro .btn-get-started {
-  font-family: 'al-jazeera-arabic_regular', sans-serif;
-  font-weight: 500;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   font-size: 16px;
   letter-spacing: 0px;
   display: inline-block;
@@ -430,7 +426,8 @@ hr.new {
   background: #a07840;
 }
 #intro .btn-get-started:hover {
-  background: rgba(255, 255, 255, 0.445);
+  border: 2px solid #a07840;
+  background: #fff;
   color: #a07840;
 }
 /*--------------------------------------------------------------
@@ -444,9 +441,7 @@ section {
 .section-header h2 {
   font-size: 32px;
   color: #37655b;
-  text-transform: uppercase;
   text-align: center;
-  font-weight: 400;
   position: relative;
   padding-bottom: 15px;
 }
@@ -517,7 +512,6 @@ section {
   line-height: 1.6em;
 }
 #featured-services h4 {
-  font-weight: 500;
   margin: 15px 0;
   font-size: 18px;
 }
@@ -528,14 +522,13 @@ section {
   color: #18d26e;
 }
 #featured-services p {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.6em;
   color: #f7f1e4;
   margin-bottom: 0;
 }
 #featured-services p a {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   color: #bd904c;
 }
 #featured-services p a:hover {
@@ -565,17 +558,15 @@ section {
 }
 #about .container h1 {
   font-size: 32px;
-  font-weight: 500;
   text-align: center;
   color: #bd6d00;
   margin-bottom: 30px;
 }
 #about .container p {
-  font-weight: 500;
   color: #37655b;
 }
 #about .container p a {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   color: #bd6d00;
 }
 #about .container p a:hover {
@@ -625,7 +616,6 @@ section {
 #about .about-col h2 {
   color: #37655b;
   text-align: center;
-  font-weight: 500;
   font-size: 20px;
   padding: 0;
   margin: 40px 0 12px 0;
@@ -637,7 +627,6 @@ section {
   color: #18d26e;
 }
 #about .about-col p {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.6em;
   color: #37655b;
@@ -656,17 +645,15 @@ section {
 }
 #coexist h3 {
   color: #37655b;
-  font-weight: 500;
   text-align: center;
 }
 #coexist p {
   color: #37655b;
-  font-weight: 500;
 }
 #coexist .title {
   margin-right: 60px;
   margin-top: -35px;
-  font-weight: 500;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -677,7 +664,6 @@ section {
   color: #18d26e;
 }
 #coexist .description {
-  font-weight: 500;
   font-size: 16px;
   margin-right: 60px;
   line-height: 1.6em;
@@ -694,21 +680,16 @@ section {
 #call-to-action h2 {
   color: #f7f1e4;
   font-size: 48px;
-  font-weight: 500;
 }
 #call-to-action h3 {
   color: #f7f1e4;
   font-size: 34px;
-  font-weight: 500;
 }
 #call-to-action p {
-  font-weight: 500;
   color: #f7f1e4;
 }
 #call-to-action .cta-btn {
-  font-family: 'al-jazeera-arabic_regular', sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -733,14 +714,12 @@ section {
 #values h3 {
   color: #37655b;
   text-align: center;
-  font-weight: 500;
 }
 #values p {
   color: #37655b;
-  font-weight: 500;
 }
 #values p a {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 /* Facts Section
 --------------------------------*/
@@ -752,11 +731,9 @@ section {
 }
 #facts h3 {
   color: #37655b;
-  font-weight: 500;
   text-align: center;
 }
 #facts p {
-  font-weight: 500;
   color: #37655b;
 }
 #facts::before {
@@ -775,7 +752,6 @@ section {
 }
 #facts .counters span {
   font-family: 'al-jazeera-arabic_regular', sans-serif;
-  font-weight: 500;
   font-size: 32px;
   display: block;
   color: #72552e;
@@ -791,29 +767,253 @@ section {
   text-align: center;
   padding-top: 30px;
 }
+/* virtual Section
+--------------------------------*/
+#virtual {
+  background-color: #f7f1e4;
+  padding-top: 120px;
+  padding-left: 10px;
+  padding-right: 10px
+}
+#virtual h3 {
+  color: #37655b;
+  text-align: center;
+  font-size: 25px;
+}
+#virtual p {
+  padding: 30px;
+  text-align: center;
+  color: #37655b;
+}
+#virtual p a{
+  color: #bd6d00;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
+}
+#virtual p a:hover{
+  color: #18d26e;
+}
+#virtual .lang h5 {
+  color: #37655b;
+  font: 45px;
+  text-align: center;
+}
+#virtual #virtual-flters {
+  padding: 0;
+  margin: 5px 0 35px 0;
+  list-style: none;
+  text-align: center;
+}
+#virtual #virtual-flters li {
+  cursor: pointer;
+  margin: 15px 15px 15px 0;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background: #fff;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+#virtual #virtual-flters li:hover, #virtual #virtual-flters li.filter-active {
+  background: #18d26e;
+  color: #fff;
+}
+#virtual #virtual-flters li:last-child {
+  margin-right: 0;
+}
+#virtual .virtual-wrap {
+  box-shadow: 1px 1px 7px 2px #888888;
+  transition: 0.3s;
+}
+#virtual .virtual-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+#virtual .virtual-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+#virtual .virtual-item figure {
+  background: #a07840e9;
+  overflow: hidden;
+  height: 240px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+#virtual .virtual-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+#virtual .virtual-item figure .link-preview, #virtual .virtual-item figure .link-details {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
+}
+#virtual .virtual-item figure .link-preview i, #virtual .virtual-item figure .link-details i {
+  font-size: 22px;
+  color: #234b2e;
+  line-height: 0;
+}
+#virtual .virtual-item figure .link-preview:hover, #virtual .virtual-item figure .link-details:hover {
+  background: #18d26e;
+}
+#virtual .virtual-item figure .link-preview:hover i, #virtual .virtual-item figure .link-details:hover i {
+  color: #fff;
+}
+#virtual .virtual-item figure .link-preview {
+  left: calc(20% - 38px);
+  top: calc(50% - 18px);
+}
+#virtual .virtual-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
+#virtual .virtual-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(62% - 44px);
+}
+#virtual .virtual-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
+#virtual .virtual-item .virtual-info {
+  background: #fff;
+  text-align: center;
+  padding: 20px;
+  height: 60px;
+  border-radius: 0 0 3px 3px;
+}
+#virtual .virtual-item .virtual-info h4 {
+  font-size: 16px;
+  line-height: 1px;
+  margin-bottom: 16px;
+  padding-bottom: 0;
+}
+#virtual .virtual-item .virtual-info h4 a {
+  color: #554124;
+}
+#virtual .virtual-item .virtual-info h4 a:hover {
+  color: #18d26e;
+}
+#virtual .virtual-item .virtual-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/*--------------------------------------------------------------
+# virtual Details
+--------------------------------------------------------------*/
+.virtual-details {
+  padding-top: 40px;
+}
+.virtual-details .virtual-details-slider img {
+  width: 100%;
+}
+.virtual-details .virtual-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.virtual-details .virtual-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+.virtual-details .virtual-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #18d26e;
+}
+.virtual-details .virtual-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(51, 51, 51, 0.08);
+}
+.virtual-details .virtual-info h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.virtual-details .virtual-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.virtual-details .virtual-info ul li + li {
+  margin-top: 10px;
+}
+.virtual-details .virtual-description {
+  padding-top: 30px;
+}
+.virtual-details .virtual-description h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.virtual-details .virtual-description p {
+  padding: 0;
+}
+#virtual .lang {
+  padding-bottom: 30px;
+  padding-bottom: 30px;
+}
+#virtual .lang img {
+  opacity: 0.5;
+  transition: 0.1s;
+  padding-top: 30px;
+}
+#virtual .lang img:hover {
+  opacity: 1;
+}
+#virtual .lang .swiper-pagination {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+#virtual .lang .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #18d26e;
+}
+#virtual .lang .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #00853e;
+}
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
   background-color: #f7f1e4;
-  padding-top: 40px;
+  padding-top: 120px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 10px
 }
 #portfolio h3 {
   color: #37655b;
-  font-weight: 500;
   text-align: center;
   font-size: 25px;
 }
 #portfolio p {
   padding: 30px;
   text-align: center;
-  font-weight: 500;
   color: #37655b;
 }
 #portfolio p a{
   color: #bd6d00;
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 #portfolio p a:hover{
   color: #18d26e;
@@ -821,7 +1021,6 @@ section {
 #portfolio .lang h5 {
   color: #37655b;
   font: 45px;
-  font-weight: 400;
   text-align: center;
 }
 #portfolio #portfolio-flters {
@@ -892,7 +1091,6 @@ section {
 #portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   font-size: 22px;
   color: #234b2e;
-  font-weight: 400;
   line-height: 1.6em;
 }
 #portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
@@ -927,7 +1125,6 @@ section {
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 16px;
   line-height: 1.6em;
-  font-weight: 400;
   margin-bottom: 16px;
   padding-bottom: 0;
 }
@@ -941,7 +1138,6 @@ section {
   padding: 0;
   margin: 0;
   color: #b8b8b8;
-  font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
 }
@@ -974,7 +1170,6 @@ section {
 }
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
-  font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -992,7 +1187,6 @@ section {
 }
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
-  font-weight: 400;
   margin-bottom: 20px;
 }
 .portfolio-details .portfolio-description p {
@@ -1033,16 +1227,14 @@ section {
 }
 #network h3 {
   color: #37655b;
-  font-weight: 500;
   text-align: center;
 }
 #network p {
-  font-weight: 500;
   text-align: center;
   color: #37655b;
 }
 #network p a {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 #network img {
   opacity: 0.5;
@@ -1073,16 +1265,14 @@ section {
 }
 #testimonials h3 {
   color: #37655b;
-  font-weight: 500;
   text-align: center;
 }
 #testimonials p {
-  font-weight: 500;
   text-align: center;
   color: #37655b;
 }
 #testimonials p a {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 #testimonials .section-header {
   margin-bottom: 40px;
@@ -1150,7 +1340,7 @@ section {
   color: #37655b;
 }
 .blog .name {
-  font-family: 'al-jazeera-arabic-bold';
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   font-size: 18px;
   line-height: 2.1;
 }
@@ -1172,7 +1362,6 @@ section {
 }
 .blog .entry .entry-title {
   color: #37655b;
-  font-weight: 500;
 }
 .blog .entry .entry-title a {
   color: #bd6d00;
@@ -1184,12 +1373,10 @@ section {
 .blog .entry .entry-content h4, h5, p {
   color: #37655b;
   line-height: 1.6em;
-  font-weight: 500;
 }
 .blog .entry .entry-content {
   color: #37655b;
   line-height: 1.6em;
-  font-weight: 500;
 }
 .blog .entry .entry-content p a{
   color: #bd6d00;
@@ -1205,7 +1392,6 @@ section {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 .blog .sidebar .sidebar-title {
-  font-weight: 500;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
   color: #37655b;
@@ -1234,7 +1420,7 @@ section {
 }
 .blog .sidebar .recent-posts {
   font-size: 16px;
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   line-height: 1.3em;
 }
 .blog .sidebar .recent-posts img {
@@ -1247,7 +1433,7 @@ section {
 }
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 .blog .sidebar .recent-posts h4 a {
   color: #bd6d00;
@@ -1258,7 +1444,7 @@ section {
 }
 .blog .sidebar .recent-posts h3 {
   font-size: 19px;
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   color: #37655b;
 }
 .blog .sidebar .recent-posts h3 a {
@@ -1276,11 +1462,11 @@ section {
   color: #b3b3b3;
 }
 .blog .reading {
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 .blog .sidebar .links {
   font-size: 17px;
-  font-weight: 700;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 /*--------------------------------------------------------------
 # Footer
@@ -1328,7 +1514,7 @@ section {
 }
 #footer .footer-top h4 {
   font-size: 14px;
-  font-weight: 700;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
   color: #f7f1e4;
   text-transform: uppercase;
   position: relative;
@@ -1398,7 +1584,7 @@ BUTTONS
   margin:20px 0;
   text-align:center;
   list-style:none;
-  font-weight: 800;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 } 
 .pager li {
   display:inline
@@ -1443,7 +1629,6 @@ BUTTONS
   padding-top: 0px;
   color: #f7f1e4;
   font-size: 32px;
-  font-weight: 400;
 }
 #title p {
   color: #fff;

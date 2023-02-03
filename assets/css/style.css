@@ -672,7 +672,8 @@ hr.new {
   background: #a07840;
 }
 #intro .btn-get-started:hover {
-  background: rgba(255, 255, 255, 0.445);
+  border: 2px solid #a07840;
+  background: #fff;
   color: #a07840;
 }
 /*--------------------------------------------------------------
