@@ -3,12 +3,12 @@ RewriteCond %{HTTP_HOST} !^omanis-for-tolerance.com$
 RewriteRule ^(.*)$ https://omanis-for-tolerance.com/$1 [R=301,L]
 
 ssl_certificate /etc/nginx/ssl/cert_chain.crt;
-ssl_certificate_key /etc/nginx/ssl/example_com.key;
+ssl_certificate_key /etc/nginx/ssl/omanis-for-tolerance_com.key;
 
 server {
     listen 80 default_server;
     listen 443 ssl default_server;
-    return 301 https://example.com$request_uri;
+    return 301 https://omanis-for-tolerance.com.com$request_uri;
 }
 
 <IfModule mod_deflate.c>
