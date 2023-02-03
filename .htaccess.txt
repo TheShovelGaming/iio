@@ -1,3 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^omanis-for-tolerance.com$
+RewriteRule ^(.*)$ https://omanis-for-tolerance.com/$1 [R=301,L]
 
 <IfModule mod_deflate.c>
 # Insert filters / compress text, html, javascript, css, xml:
