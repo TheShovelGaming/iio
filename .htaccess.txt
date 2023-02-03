@@ -2,6 +2,16 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} !^omanis-for-tolerance.com$
 RewriteRule ^(.*)$ https://omanis-for-tolerance.com/$1 [R=301,L]
 
+server {
+    server_name www.omanis-for-tolerance.com;
+    return 301 https://omanis-for-tolerance.com$request_uri;
+}
+
+server {
+    server_name omanis-for-tolerance.com;
+    # Server Code
+}
+
 <IfModule mod_deflate.c>
 # Insert filters / compress text, html, javascript, css, xml:
 # mod_deflate can be used for Apache v2 and later and is the recommended GZip mechanism to use
