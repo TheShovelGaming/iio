@@ -1149,6 +1149,11 @@ section {
   padding: 0;
   color: #37655b;
 }
+.blog .name {
+  font-family: 'al-jazeera-arabic-bold';
+  font-size: 18px;
+  line-height: 2.1;
+}
 .blog a {
   color: #bd6d00;
 }
