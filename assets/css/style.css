@@ -1544,6 +1544,18 @@ section {
 #network img:hover {
   opacity: 1;
 }
+#network .swiper-slide img {
+  max-width:100%;
+  height:auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+@media (max-width: 992px) {
+  #network .swiper-slide img {
+    max-width:100%;
+    height:auto
+  }
+}
 #network .swiper-pagination {
   margin-top: 30px;
   position: relative;
@@ -1585,25 +1597,13 @@ section {
 }
 #testimonials .testimonial-item {
   text-align: center;
+  line-height: 1.8;
 }
 #testimonials .testimonial-item .testimonial-img {
   width: 120px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
-}
-#testimonials .testimonial-item .quote-sign-left {
-  margin-top: -15px;
-  padding-right: 10px;
-  display: inline-block;
-  width: 37px;
-}
-#testimonials .testimonial-item .quote-sign-right {
-  margin-bottom: -15px;
-  padding-left: 10px;
-  display: inline-block;
-  max-width: 100%;
-  width: 37px;
 }
 #testimonials .testimonial-item p {
   margin: 0 auto 15px auto;
@@ -1618,7 +1618,7 @@ section {
   }
 }
 #testimonials .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
 }
 #testimonials .swiper-pagination .swiper-pagination-bullet {
@@ -1649,6 +1649,7 @@ section {
 }
 .blog a {
   color: #bd6d00;
+  font-weight: 700;
 }
 .blog a:hover {
   color: #18d26e;
@@ -1689,6 +1690,32 @@ section {
 }
 .blog .entry .entry-content p a:hover{
   color: #18d26e;
+}
+.blog .entry .swiper-slide img {
+  max-width:80%;
+  height:auto;
+  margin-bottom: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+@media (max-width: 992px) {
+  .blog .entry .swiper-slide img {
+    max-width:70%;
+    height:auto
+  }
+}
+.swiper-slide img {
+  max-width:50%;
+  height:auto;
+  margin: 20px !important;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+@media (max-width: 992px) {
+  .swiper-slide img {
+    max-width:70%;
+    height:auto
+  }
 }
 .blog .post-item img {
   transition: all 1.5s ease-in-out ;
@@ -1753,8 +1780,8 @@ section {
   box-shadow: 1px 1px 4px 4px #888888;
 }
 .blog .sidebar .recent-posts h4 {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 600;
 }
 .blog .sidebar .recent-posts h4 a {
   color: #bd6d00;
