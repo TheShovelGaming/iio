@@ -1676,7 +1676,7 @@ BUTTONS
   background-color:#fff;
 }
 #title {
-  background: linear-gradient(rgba(0, 46.3, 11.8, 0.1), rgba(0, 0, 0, 0.2)), url(../img/call-to-action-bg2.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 46.3, 11.8, 0.1), rgba(0, 0, 0, 0.2)), url(../img/call-to-action-bg2.webp) fixed center center;
   background-size: cover;
   padding: 10px;
 }
