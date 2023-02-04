@@ -511,14 +511,14 @@ section {
   display: inline-block;
   line-height: 1.6em;
 }
-#featured-services h4 {
+#featured-services h3 {
   margin: 15px 0;
   font-size: 18px;
 }
-#featured-services h4 a {
+#featured-services h3 a {
   color: #bd904c;
 }
-#featured-services h4 a:hover {
+#featured-services h3 a:hover {
   color: #18d26e;
 }
 #featured-services p {
