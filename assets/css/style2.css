@@ -705,7 +705,7 @@ section {
   border: 2px solid #fff;
   color: #1d645a;
 }
-/* Call To Action Section
+/* Values Section
 --------------------------------*/
 #values {
   background: rgb(250, 242, 244);
@@ -731,13 +731,13 @@ section {
 }
 #facts h3 {
   color: #37655b;
-  font-weight: 500;
+  font-size: 32px;
   text-align: center;
   font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 #facts p {
   color: #37655b;
-  font-family: 'al-jazeera-arabic_regular', sans-serif;
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
 }
 #facts::before {
   content: "";
