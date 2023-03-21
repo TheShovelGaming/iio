@@ -986,6 +986,16 @@ section {
 #values p a {
   font-weight: 700;
 }
+#values img{
+  display:block;
+  margin:auto;
+  -webkit-filter:drop-shadow(5px 5px 5px #222);
+  filter:drop-shadow(5px 5px 5px #222);
+  transition: all 1.5s ease-in-out;
+}
+#values img:hover{
+  scale:1.05;
+}
 /* Facts Section
 --------------------------------*/
 #facts {
