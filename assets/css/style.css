@@ -320,7 +320,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   margin: 0 0 20px 0;
   padding: 0;
@@ -564,7 +564,7 @@ hr.new {
   left: 0;
   bottom: 0;
 }
-#intro .carousel-item { 
+#intro .carousel-item {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -579,7 +579,7 @@ hr.new {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 70px;
+  top: 90px;
   left: 50px;
   right: 50px;
 }
@@ -589,23 +589,30 @@ hr.new {
 #intro h2 {
   color: #37655b;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 500;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #intro h2 {
     font-size: 28px;
+    margin-bottom: 25px;
   }
 }
 #intro p {
-  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.7;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #37655b;
+  font-weight:500;
 }
-@media (min-width: 1024px) {
+#intro p span {
+  font-weight:700;
+}
+@media (max-width: 1024px) {
   #intro p {
-    width: 60%;
+    margin-bottom: 25px;
+    font-size: 16px;
   }
 }
 #intro .carousel-fade {

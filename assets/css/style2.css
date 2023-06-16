@@ -56,11 +56,11 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-  }
+}
 body {
   background: #e4e5d9;
   color: #666666;
-  font-family: 'al-jazeera-arabic_regular',Open Sans, sans-serif;
+  font-family: 'al-jazeera-arabic_regular','Open Sans',sans-serif;
 }
 a {
   color: #bd6d00;
@@ -78,7 +78,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6 {
   color: #37655b;
-  font-family: 'al-jazeera-arabic-bold', sans-serif;
+  font-family: 'al-jazeera-arabic-bold',sans-serif;
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -241,7 +241,7 @@ hr.new {
   }
 }
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #bd6d00;
@@ -326,7 +326,7 @@ hr.new {
   background-position: center;
   background-repeat: no-repeat;
 }
-#intro .carousel-item::before { 
+#intro .carousel-item::before {
   content: "";
   background-color: rgba(254, 255, 247, 0.9);
 }
@@ -336,7 +336,7 @@ hr.new {
   align-items: center;
   position: absolute;
   bottom: 0;
-  top: 70px;
+  top: 90px;
   left: 50px;
   right: 50px;
 }
@@ -346,21 +346,28 @@ hr.new {
 #intro h2 {
   color: #37655b;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 44px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   #intro h2 {
     font-size: 28px;
+    margin-bottom: 25px;
   }
 }
 #intro p {
+  font-size: 22px;
+  line-height: 1.6;
   width: 80%;
   margin: 0 auto 30px auto;
   color: #37655b;
 }
-@media (min-width: 1024px) {
+#intro p span {
+  font-family: 'al-jazeera-arabic-bold', sans-serif;
+}
+@media (max-width: 1024px) {
   #intro p {
-    width: 60%;
+    margin-bottom: 25px;
+    font-size: 18px;
   }
 }
 #intro .carousel-fade {
