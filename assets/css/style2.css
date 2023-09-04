@@ -82,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 0;
 }
+span {
+  font-family:'al-jazeera-arabic-bold',sans-serif;
+  font-weight:700;
+}
 hr {
   color: green;
   border-top: 5px solid green; 
@@ -1414,6 +1418,7 @@ section {
   color: #37655b;
   line-height: 1.6em;
 }
+
 .blog .entry .entry-content {
   color: #37655b;
   line-height: 1.6em;
@@ -1423,6 +1428,9 @@ section {
 }
 .blog .entry .entry-content p a:hover{
   color: #18d26e;
+}
+.blog .entry span{
+  font-family: 'al-jazeera-arabic-bold',sans-serif;
 }
 .blog .entry .swiper-slide img {
   max-width:80%;
